@@ -1,0 +1,149 @@
+<!doctype html>
+<!-- Copyright: Daemon Pty Limited 2006, http://www.daemon.com.au
+     This program is free software: you can redistribute it and/or modify
+     it under the terms of the GNU General Public License as published by
+     the Free Software Foundation, either version 2 of the License, or
+     (at your option) any later version.
+
+     This program is distributed in the hope that it will be useful,
+     but WITHOUT ANY WARRANTY; without even the implied warranty of
+     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+     GNU General Public License for more details.
+
+     You should have received a copy of the GNU General Public License
+     along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>Total Quality Management</title>
+
+<link rel="stylesheet" type="text/css" href="../css/main.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="../css/print.css" media="print" />
+<!--[if lte IE 6]>
+    <link rel="stylesheet" type="text/css" href="../css/ie6_or_less.css" />
+<![endif]-->
+
+<script type="text/javascript" src="../js/common.js"></script>
+</head>
+
+<body id="type-b">
+<div id="wrap">
+    <div id="header">
+        <div id="site-name">Total Quality Management</div>
+    </div>
+
+    <div id="content-wrap">
+
+        <!-- TODO: add sidebar navigation. -->
+
+        <div id="content">
+
+            <div id="breadcrumb">
+            </div>
+
+            <h1>Statistical Process Control (SPC)</h1>
+            <h2>1. Overview</h2>
+            <p>Statistical Process Control (SPC) is a way of using statistical 
+            methods and visual display of data to allow us to understand the 
+            variation in a process. Deciding when the variation is natural and 
+            when it needs correction is the 
+            key to quality control. The three main aspects of the problem of 
+            statistical process control are:</p>     
+            <ul>
+                <li>Detecting changes in process performance</li>
+                <li>Finding the cause of the changes</li>
+                <li>Making appropriate adjustments to the process</li>
+            </ul>
+            
+            <p>The most commonly used tool for monitoring and analysing process 
+            performance is the control chart, originally developed by Walter 
+            Shewhart in the early 1920s. A control chart helps you record data
+            and lets you see when an unusual event,e.g., a very high or low 
+            observation compared with “typical” process performance, occurs. 
+            Dr. W. Edwards Deming built upon Shewart’s work and popularised 
+            it worldwide.</p>
+            
+            <h2>2. Control Chart</h2>
+             <p>A variable which is characteristic of the process is chosen and 
+             plotted as a function of time. The values will typically show some 
+             scatter about the desired mean value with a given standard 
+             deviation if the process is running properly. Control limits for 
+             the process can be added to the chart to indicate whether or not 
+             the process is within tolerance. There are a handful of control 
+             charts which are commonly used. They vary slightly depending on 
+             their data, but all have the same general fundamentals as displayed
+             in Figure 1.</p>
+           
+            <div style="text-align: center;">
+                <img style="width: 515px; height: 376px;" alt="" 
+                src="ControlChart.png">
+                </div>  
+            <p style="text-align: center;" class="caption">Figure 1: 
+            Control Chart</p>
+    
+            <p>Control charts have four key features:</p>
+            <ol>
+                <li>Data points are either averages of subgroup measurements or 
+                individual measurements plotted on the x/y axis and joined by a 
+                line. Time is always on the x-axis.</li> 
+                <li>The Average or Center Line is the average or mean of the 
+                data points and is drawn across the middle section of the graph,
+                usually as a heavy or solid line.</li> 
+                <li>The Upper Control Limit (UCL) is drawn above the centerline 
+                and often annotated as "UCL". This is often called the 
+                “+ 3 sigma” line. This is explained in more detail in Control 
+                Limits.</li> 
+                <li>The Lower Control Limit (LCL) is drawn below the centerline 
+                and often annotated as "LCL". This is called the “- 3 sigma” 
+                line.</li>
+            </ol>
+  
+            <p>A control chart gives a good visual indication of the performance 
+            and can provide a great deal of useful information to an experienced 
+            engineer.</p>
+
+            <h2>3. Control Limits</h2>   
+            <p>Control limits are calculated statistically from your data. They 
+            are referred to as the Lower Control Limit (LCL) and the Upper 
+            Control Limit (UCL) on a  control chart. These are set at 3-sigma by 
+            default since this is the most commonly used limit. Control limits 
+            define the zone where the observed data for a stable and consistent 
+            process occurs virtually all of the time (99.7%).Any fluctuations 
+            within these limits come from common causes inherent to the system, 
+            such as choice of equipment, scheduled maintenance or the precision 
+            of the operation that results from the design. These normal 
+            fluctuations are attributed to statistical variability. An outcome 
+            beyond the control limits results from a special cause. Special 
+            causes are events external to the ordinary operation of a production 
+            or service. Special causes indicate that there have been one or more
+            fundamental changes to the process and the process is out of 
+            control. Special causes need to be investigated and eliminated 
+            before a control chart can be used as a quality-monitoring tool.</p>
+            
+            <h2>4. Further Reading</h2>  
+            <ul>
+            <li><a href="Statistical%20Process%20Control%20and%20Process%20Control%20Tools%20%20%20ASQ.html">Statistical Process and Control</a></li>
+            <li><a href="SPCOverview_mfg.pdf">Introduction to Statistical 
+            Process Control Techniques</a></li>
+            <li><a href="Statistical%20Process%20Control.html">Statistical 
+            Process Control Methods</a></li>
+            </ul>
+
+            <div id="footer">
+            <p>&copy;2015</p>
+            </div>
+
+        </div>
+
+        <div id="poweredby">
+            <a href="http://farcry.daemon.com.au/">
+                <img src="../wsimages/mollio.gif" alt="FarCry - Mollio" />
+            </a>
+        </div>
+
+    </div>
+
+</div>
+</body>
+</html>

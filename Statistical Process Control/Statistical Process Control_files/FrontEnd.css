@@ -1,0 +1,3211 @@
+
+
+
+
+/* ACCORDIAN STYLES */
+
+#content .accordionLinks ul.linksGroupList,
+#ld-content .accordionLinks ul.linksGroupList
+{
+    border-bottom: 1px solid #DDE1DA;
+}
+    
+
+#content .accordionLinks ul.linksGroupList li,
+#ld-content .accordionLinks ul.linksGroupList li
+{
+    padding-left: 0;
+    list-style-type: none;
+    background: none;
+    margin: 0;
+    padding: 0;
+}
+
+#content .accordionLinks ul.linksGroupList li ul li,
+#ld-content .accordionLinks ul.linksGroupList li ul li
+{
+    border: none;
+    background: url(/images/arrow_light.png) 10px center no-repeat;
+    padding: 0.2em 1em 0.2em 20px;
+    zoom: 1;
+    overflow: hidden;
+}
+
+#content .accordionLinks ul.linksGroupList li h3,
+#ld-content .accordionLinks ul.linksGroupList li h3
+{
+    margin: 0;
+    padding: 0.2em 0 0.1em 20px;
+    background: url(/images/arrow_full_grey.png) 6px center no-repeat;
+    background-color: #F1F3F0;
+    border: 1px solid #DDE1DA;
+    border-bottom-color: #F1F3F0;
+    color: #1494B6;
+}
+
+#content .accordionLinks ul.linksGroupList li .linksList,
+#ld-content .accordionLinks ul.linksGroupList li .linksList
+{
+    background-color: #6E6E6E;
+    margin-bottom: 0;
+    padding: 0 0 1em 0;
+    border-left: 1px solid #DDE1DA;
+    border-right: 1px solid #DDE1DA;
+    border-top: 1px solid #9A9A9A;
+}
+
+#content .accordionLinks ul.linksGroupList li .linksList ul,
+#ld-content .accordionLinks ul.linksGroupList li .linksList ul
+{
+    margin-top: 0.8em;
+    float:left;
+    width:49%;
+    display:inline;
+}
+
+#content .accordionLinks ul.linksGroupList li ul li a,
+#ld-content .accordionLinks ul.linksGroupList li ul li a
+{
+    color: #fff;
+    zoom: 1;
+    overflow: hidden;
+}
+
+#content .accordionLinks ul.linksGroupList li.selected h3,
+#ld-content .accordionLinks ul.linksGroupList li.selected h3
+{
+    background-color: #616161;
+    border-bottom-color: #424242;
+    background-image: url(/images/arrow_full_grey_show.png);
+}
+
+#content .accordionLinks ul.linksGroupList li.selected h3,
+#content .accordionLinks ul.linksGroupList li.selected h3 a,
+#ld-content .accordionLinks ul.linksGroupList li.selected h3,
+#ld-content .accordionLinks ul.linksGroupList li.selected h3 a {color: #fff;}
+
+
+/*-----Audience Panel----*/
+.AudiencePanel {
+	margin-bottom: 22px;
+	background-color: #F7F7F7;
+}
+
+.AudiencePanel .innerContent {
+	background-color: #fff;
+	padding: 0;
+}
+
+.AudiencePanel h3 {
+	margin-bottom: 0;
+}
+
+.AudiencePanel ul#actions,
+.AudiencePanel ul.actions {
+	width: 33%;
+	float: left;
+}
+
+.AudiencePanel ul#actions,
+.AudiencePanel ul.actions {
+	padding: 0;
+	margin: 0;
+}
+
+.AudiencePanel ul#actions li,
+.AudiencePanel ul.actions li {
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.AudiencePanel div#audiencePanelWidget {
+	margin-right: 0;
+	width: 100%;
+}
+
+.AudiencePanel div#audiencePanelWidget div.content {
+	overflow: hidden;
+	width: 66%;
+	padding: 0;
+	float: left;
+}
+
+.AudiencePanel div#audiencePanelWidget div.rotating-feature {
+	width: auto;
+	height: auto;
+	position: relative;
+}
+
+.AudiencePanel div#audiencePanelWidget div.content img {
+	left:0;
+	top: 0;
+	position: absolute;
+	padding: 0;
+	margin: 0;
+}
+
+.AudiencePanel div#audiencePanelWidget .remove {
+    display: none;
+}
+
+
+
+
+/*-------------------------------------------
+			Podcast Styles
+-------------------------------------------*/
+    
+    #content .podcast_widget ul {
+        margin-left: 0;
+        list-style-type: none;
+    }
+    
+	#content .podcast_widget .podcastTabControls {
+		background-color: #D2D2D4;
+		padding: 10px;
+		margin-left: 0;
+		list-style-type: none;
+	}
+
+		#content .podcast_widget .podcastTabControls li {
+		    background-image: none;
+			float: left;
+			margin-right: 10px;
+			padding:0;
+		}
+
+		#content .podcast_widget .podcastTabControls a,
+		#content .podcast_widget .paginateThis .podcastPagination li {
+			background-color: #666;
+			color: #fff;
+			display: block;
+			padding: 5px 10px;
+			-moz-box-shadow: 0px 1px 0px #CFCFCF;
+			-webkit-box-shadow: 0px 1px 0px #CFCFCF;
+			box-shadow: 0px 1px 0px #CFCFCF;
+			-moz-border-radius: 3px;
+			-webkit-border-radius: 3px;
+			cursor: pointer;
+		}
+
+			#content .podcast_widget .podcastTabControls a:hover,
+			#content .podcast_widget .podcastPagination li:hover {
+				background-color: #000 !important;
+			}
+
+
+	#content .podcast_widget .podcastPagination {
+		background-color: #D2D2D4;
+		padding: 10px;
+	}
+
+		#content .podcast_widget .paginateThis .podcastPagination li {
+			float: left;
+			margin-right: 10px;
+				background-color: #666;
+				color: #fff;
+				display: block;
+				padding: 2px 6px;
+				-moz-border-radius: 3px;
+				-webkit-border-radius: 3px;
+			}
+	
+	#content .podcast_widget .audioLinks h4 {
+		display: none;
+	}
+	
+	#content .podcast_widget .mediaLinks h5 {
+		background: url(http://www.widgetlibrary.knowledge.scot.nhs.uk/WidgetResources//podcast/portal/images/icon-audio.png) no-repeat 6px 13px;
+		clear: left;
+		overflow: hidden;
+		padding: 5px 5px 5px 15px;
+		zoom: 1;
+		overflow: hidden;
+	}
+	
+		#content .podcast_widget .mediaLinks li.odd {
+			background-color: #F4F9FF;
+		}
+		
+		#content .podcast_widget .mediaLinks .transcript {
+			clear: left;
+		}
+		
+		#content .podcast_widget .mediaLinks li {
+		    background-image: none;
+		    padding-left: 0;
+			overflow: hidden;
+		}
+		
+		#content .podcast_widget .mediaLinks li li {
+			background: none;
+			padding: 0;
+		}
+				
+				#content .podcast_widget a.playMedia,
+				#content .podcast_widget a.download {
+				    display:block;
+					height:16px;
+					overflow:hidden;
+					text-indent:-11000em;
+					width:16px;
+					float: left;
+				}
+				
+				#content .podcast_widget a.playMedia {
+				    background: url(http://www.widgetlibrary.knowledge.scot.nhs.uk/WidgetResources//podcast/portal/images/podcast-controls-play.png) no-repeat right center;   
+				    margin-right: 2px;
+				}
+				
+				#content .podcast_widget .cross a.playMedia {
+					background-image: url(http://www.widgetlibrary.knowledge.scot.nhs.uk/WidgetResources//podcast/portal/images/podcast-controls-cross.png);
+				}
+				
+				#content .podcast_widget a.download {
+					background:url(http://www.widgetlibrary.knowledge.scot.nhs.uk/WidgetResources//podcast/portal/images/podcast-controls-download.png) no-repeat right center;
+					margin-right: 10px;
+				}
+	
+	#content .podcast_widget .ContentFlow {
+		background-color: #D2D2D4;
+		
+	}
+	
+		#content .podcast_widget .ContentFlow a {
+			background-color: transparent;
+		}
+		
+		#content .podcast_widget .ContentFlow .globalCaption {
+			color: #000;
+		}
+		
+		#content .podcast_widget .ContentFlow .scrollbar {
+			position: static;
+		}
+		
+			#content .podcast_widget .ContentFlow .preButton,
+			#content .podcast_widget .ContentFlow .nextButton{
+				cursor: pointer;
+				height:17px;
+				width: 17px;
+				text-indent: -11000em;
+				top: 30%;
+				position: absolute;
+				overflow:hidden;
+				zoom: 1;
+			}
+		#content .podcast_widget .ContentFlow .preButton {
+			background: url(http://www.widgetlibrary.knowledge.scot.nhs.uk/WidgetResources//podcast/portal/images/arrow-left-podcast.png) no-repeat;
+			left: 30px;
+		}
+		
+		#content .podcast_widget .ContentFlow .nextButton {
+			background: url(http://www.widgetlibrary.knowledge.scot.nhs.uk/WidgetResources//podcast/portal/images/arrow-right-podcast.png) no-repeat;
+			right: 30px;
+		}
+	
+	#content .podcast_widget .audioPlayer {
+	    background-color: #000;
+		clear: left;
+	}
+	
+	#content .podcast_widget .videoLinks li h5,
+	#content .podcast_widget #externalVideo .mediaLinks li {
+		background: url(http://www.widgetlibrary.knowledge.scot.nhs.uk/WidgetResources//podcast/portal/images/icon-video.png) no-repeat 6px 13px;
+		padding-left: 23px;
+		overflow:hidden;
+	}
+	#content .podcast_widget #externalVideo .mediaLinks li.odd {
+		background: url(http://www.widgetlibrary.knowledge.scot.nhs.uk/WidgetResources//podcast/portal/images/icon-video.png) no-repeat 6px 10px #F4F9FF;
+	}
+	
+	#content .podcast_widget #video .videoContainer {
+		background-color: #D2D2D4;
+		padding: 0 10px 10px 10px;
+	}
+	
+		#content .podcast_widget #video #videoPlayer {
+			background-color: #000;
+			/*height: 170px;
+			-moz-border-radius: 8px;
+			-webkit-border-radius: 8px;*/
+		}
+	
+	#content .podcast_widget #externalVideo .mediaLinks li {
+		padding: 0px 26px;
+	}
+		
+	#content .podcast_widget #externalVideo .mediaLinks li a{
+		background: url(http://www.widgetlibrary.knowledge.scot.nhs.uk/WidgetResources//podcast/portal/images/new_win.gif) no-repeat right 1px;
+		/*padding-right: 17px;*/
+		overflow: hidden;
+	}
+	
+	#content .podcast_widget .transcriptContainer {
+		border-bottom: 1px solid #E0E3E4;
+	}
+	
+	#content .podcast_widget .transcriptContainer span.transcriptHeader {
+		background:url(http://www.widgetlibrary.knowledge.scot.nhs.uk/WidgetResources//podcast/portal/images/nav-arrow.png) no-repeat scroll 10px 18px transparent;
+		cursor:pointer;
+		display:block;
+		padding:10px 10px 10px 20px;
+	}
+	
+	#content .podcast_widget .transcriptContainer span.transcriptHeader strong{
+	    padding: 0 2px;
+	}
+	
+	#content .podcast_widget .transcriptContainer span.active {
+		background:url(http://www.widgetlibrary.knowledge.scot.nhs.uk/WidgetResources//podcast/portal/images/nav-arrow-down.png) no-repeat scroll 10px 18px transparent;
+	}
+	#content .podcast_widget .transcriptContent {
+		border-top: 1px solid #EFEFEF;
+		padding: 10px 10px 10px 20px;
+		max-height: 150px;
+		overflow-y: auto;
+	}
+	
+
+
+
+/*	Additional CSS	*/
+
+
+/* Play button  */
+#ld-content .podcastContainer a.playMedia {
+    background: url("http://www.widgetlibrary.knowledge.scot.nhs.uk/WidgetResources//podcast/portal/images/podcast-controls-play.png") no-repeat scroll right center transparent;
+    margin-right: 2px;
+}
+
+#ld-content .podcastContainer a.playMedia,
+#ld-content .podcastContainer a.download {
+    display: block;
+    float: left;
+    height: 16px;
+    overflow: hidden;
+    text-indent: -11000em;
+    width: 16px;
+}
+
+/* Download button  */
+#ld-content .podcastContainer a.download {
+    background: url("http://www.widgetlibrary.knowledge.scot.nhs.uk/WidgetResources//podcast/portal/images/podcast-controls-download.png") no-repeat scroll right center transparent;
+    margin-right: 10px;
+}
+
+#ld-content .podcastContainer a.playMedia, 
+#ld-content .podcastContainer a.download {
+    display: block;
+    float: left;
+    height: 16px;
+    overflow: hidden;
+    text-indent: -11000em;
+    width: 16px;
+}
+
+/*   surrounding container  */
+#ld-content .podcastContainer .videoLinks li h5,
+#ld-content  #externalVideo .mediaLinks li {
+    background: url("http://www.widgetlibrary.knowledge.scot.nhs.uk/WidgetResources//podcast/portal/images/icon-video.png") no-repeat scroll 6px 8px transparent;
+    overflow: hidden;
+    padding-left: 23px;
+}
+
+
+#ld-content .podcastContainer .transcriptContainer span.transcriptHeader {
+    background: url("http://www.widgetlibrary.knowledge.scot.nhs.uk/WidgetResources//podcast/portal/images/nav-arrow.png") no-repeat scroll 10px 18px transparent;
+    cursor: pointer;
+    display: block;
+    padding: 10px 10px 10px 20px;
+}
+
+#ld-content .podcastContainer .mediaLinks h5, 
+#ld-content .podcastContainer span.transcriptHeader {
+    font-size: 1em;
+}
+
+#ld-content .podcastContainer .mediaLinks .transcript {
+    clear: left;
+}
+
+#ld-content .podcastContainer .transcriptContainer {
+    border-bottom: 1px solid #E0E3E4;
+}
+
+#ld-content .podcastTabControls li {
+    background-image: none;
+    float: left;
+    margin-right: 10px;
+    padding: 0;
+}
+
+#ld-content .podcastTabControls li.active a {
+    background-color: #A73887;
+}
+
+#ld-content .podcastTabControls a, 
+#ld-content .podcastTabControls .paginateThis .podcastPagination li {
+    background-color: #666666;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 0 #CFCFCF;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: block;
+    padding: 5px 10px;
+}
+
+#ld-content  .widget .podcastTabControls li {
+    background-image: none;
+    float: left;
+    margin-right: 10px;
+    padding: 0;
+}
+
+
+#ld-content  #externalVideo .mediaLinks li a {
+    background: url("http://www.widgetlibrary.knowledge.scot.nhs.uk/WidgetResources//podcast/portal/images/new_win.gif") no-repeat scroll right 1px transparent;
+    overflow: hidden;
+}
+
+#ld-content #externalVideo .mediaLinks li {
+    padding: 0 26px;
+}
+
+
+#ld-content #externalVideo .mediaLinks li a {
+    background: url("http://www.widgetlibrary.knowledge.scot.nhs.uk/WidgetResources//podcast/portal/images/new_win.gif") no-repeat scroll right 1px transparent;
+    overflow: hidden;
+}
+
+#ld-content .podcastContainer .mediaLinks h5 {
+    background: url("http://www.widgetlibrary.knowledge.scot.nhs.uk/WidgetResources//podcast/portal/images/icon-audio.png") no-repeat scroll 6px 10px transparent;
+    clear: left;
+    overflow: hidden;
+    padding: 5px 5px 5px 15px;
+}
+
+#ld-content .podcastTabControls  #externalVideo .mediaLinks li.odd {
+    background: url("http://www.widgetlibrary.knowledge.scot.nhs.uk/WidgetResources//podcast/portal/images/icon-video.png") no-repeat scroll 6px 10px #F4F9FF;
+}
+
+
+#ld-content .podcastContainer .ContentFlow {
+    background-color: #D2D2D4;
+}
+
+.ContentFlow {
+    overflow: hidden;
+    position: relative;
+}
+
+#ld-content  ul.podcastTabControls {
+    background-color: #D2D2D4;
+    list-style-type: none;
+    margin-left: 0;
+    padding: 10px;
+}
+
+
+.ContentFlow .flow .item canvas.content{height:100%;width:100%}.ContentFlow .flow .item.active{cursor:pointer}.ContentFlow .flow .item .caption{font-size:100%;font-weight:700;text-align:center;color:#FFF;max-height:30%;bottom:10%;background:url(/img/1x1_0.5_black.png);width:100%;position:absolute;display:none}* html .ContentFlow .flow .item .caption{background-image:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/img/1x1_0.5_black.png')}.ContentFlow .scrollbar{width:50%;height:16px;background:url(img/scrollbar_white.png) left center repeat-x;overflow:visible;position:relative;z-index:1;visibility:hidden;margin:10px auto 0}.ContentFlow .scrollbar .slider{width:16px;height:16px;background:url(/img/slider_white.png) center center no-repeat;cursor:move;position:absolute}* html .ContentFlow .scrollbar .slider{background-image:none}* html .ContentFlow .scrollbar .slider .virtualSlider{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='/img/slider_white.png');height:100%}.ContentFlow .scrollbar .slider .position{top:120%;font-size:16px;font-weight:700;color:silver;position:absolute;text-align:center}.ContentFlow .globalCaption{text-align:center;font-weight:700;color:#FFF;font-size:14px;height:20px;position:relative;z-index:1;margin:2em auto}.ContentFlow .loadIndicator{width:100%;height:100%;top:0;left:0;background:#000;position:absolute;z-index:65000}.ContentFlow .loadIndicator .indicator{background:url(/img/loader.gif) center center no-repeat;width:100%;height:100%}* html .ContentFlow .loadIndicator .indicator{height:100px}.ContentFlow{position:relative;overflow:hidden}.ContentFlow *{margin:0;padding:0}.ContentFlow img{-ms-interpolation-mode:bicubic}.ContentFlow .mouseoverCheckElement{position:absolute;width:0;height:0;left:0;visibility:hidden}.ContentFlow:hover .mouseoverCheckElement{left:1px}.ContentFlow .flow{position:relative;z-index:0;visibility:hidden;width:100%;margin:0 auto}.ContentFlow .flow.hidden{visibility:hidden}.ContentFlow .flow .item{position:absolute;visibility:hidden;top:0;left:0}.ContentFlow .flow .item div.content{width:100%;height:100%}.ContentFlow .flow .item .label{display:none}.ContentFlow .flow .item canvas.reflection{margin-top:-1px}.ContentFlow .flow .item img.content,.ContentFlow .flow .item img.reflection,.ContentFlow .flow .item canvas.reflection{width:100%}.ContentFlow .flow .item .caption a,.ContentFlow .flow .item .caption a:link,.ContentFlow .flow .item .caption a:visited,.ContentFlow .flow .item .caption a:active,.ContentFlow .flow .item .caption a:hover,.ContentFlow .globalCaption .caption a,.ContentFlow .globalCaption .caption a:link,.ContentFlow .globalCaption .caption a:visited,.ContentFlow .globalCaption .caption a:active,.ContentFlow .globalCaption .caption a:hover{color:#FFF;font-size:0.8em;font-style:italic;text-decoration:none}.ContentFlow .flow .item .caption a:hover,.ContentFlow .globalCaption .caption a:hover{text-decoration:underline}.ContentFlow .flow .item .content,.ContentFlow .flow .item .reflection{display:block}
+
+
+.pathways_widget a,
+.pathways_widget {
+    font-size: 12px;
+}
+
+.pathways_widget #subject ul {
+	overflow:hidden;
+}
+.pathways_widget #subject ul li {
+	float:left;
+	width: 46%;
+}
+/*
+.pathways_widget #subject ul li a.newWindow,
+.pathways_widget #atozTitles ul li a.newWindow {
+	background-image: url(/images/global/icon-external.png);
+	background-repeat: no-repeat;
+	background-position: right 1px;
+	padding-right: 17px;
+	overflow: hidden;
+}*/
+
+.pathways_widget #subject ul li a.newWindow,
+.pathways_widget #atozTitles ul li a.newWindow {
+    background-image:url("/images/global/new_win.gif");
+    background-position:100% 2px;
+    background-repeat:no-repeat;
+    padding:0 15px 0 0;
+}
+
+.pathways_widget #atozTitles h4 
+{
+    clear: left;
+}
+
+.pathways_widget #atozTitles ul {
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
+.pathways_widget #atozTitles ul.atozList li 
+{
+    background: none;
+	float: left;
+	margin-right: 5px;
+	padding: 3px 5px;
+	width: auto;
+    background: none;
+}
+
+.pathways_widget #atozTitles ul.atozList li a {
+	display: block;
+	text-transform: uppercase;
+	
+}
+
+.pathways_widget #atozTitles ul li  {
+	float: left;
+	width: 45%;
+	margin-right: 10px;
+}
+
+
+#content .pathways_widget .pathwaysContent 
+{
+    padding: 10px 0;
+}
+
+#content .pathways_widget .pathwaysTriggers {
+	background: url(images/BrowsePathways/assets/images/qitTabsBG.png) repeat-x bottom left;
+	padding: 0 7px 7px 7px;
+	margin-left: 0;
+	list-style-type: none;
+}
+
+
+#content .pathways_widget .pathwaysTriggers li {
+	float: left;
+	background: #DAE3CD url(images/BrowsePathways/assets/images/qitTabInactiveBG.png) repeat-x;
+	border: 1px solid #7D8487;
+	padding: 0;
+	margin: 0 3px 0 0;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+		
+
+	#content .pathways_widget .pathwaysTriggers li a {
+		color: #000;
+		display: block;
+		padding: 5px;
+		
+	}
+
+
+		#content .pathways_widget .pathwaysTriggers li a:hover {
+			background-color: transparent;
+		}
+
+
+		#content .pathways_widget .pathwaysTriggers li.active {
+			background: #BBD1C5 url(images/BrowsePathways/assets/images/qitTabActiveBG.png) repeat-x;
+			border-bottom: 1px solid #BBD1C5;
+		}
+
+
+
+/* Column widths */
+.col-33 { width:33%; }
+.col-50 { width:50%; }
+.col-66 { width:66%; }
+
+/* Feature Carousel */
+
+.carousel ul.feature-carousel li { height:214px; }
+
+.carousel ul.feature-carousel {
+    height: 220px;
+    list-style:none;
+    overflow: hidden;
+    position: relative;
+    background:url(images/Carousel/assets/images/blue_diagonal.png) repeat 0 0;
+    margin: 10px 0 10px 0;
+	width: 100%;
+}
+
+#ld-content .carousel ul.feature-carousel li {
+    float: left;
+    top: 0;
+    margin:3px 0;
+    padding:0;
+    background:none;
+    /*width:23.1%;*/
+    width: 216px;
+}
+
+#ld-content .carousel ul.feature-carousel li.fr { float:right; }
+
+.carousel ul.feature-carousel li div.inner {border:1px solid #1D5870;background-color:#f0f0f0;margin-right:2px;}
+
+.carousel ul.feature-carousel li div.content {border:4px solid #e3e3e3;height:204px;padding: 0 8px;}
+
+.carousel ul.feature-carousel li h3, ul.feature-carousel li p {
+    margin: 10px 0;
+}
+
+#ld-content .carousel ul.feature-carousel li h3 { color:#222;font-size:1.4em; }
+
+.carousel ul.feature-carousel a {color:#007899;}
+
+.carousel ul.feature-carousel li div.content a 
+{
+    display:block;
+    background-position:0 0;
+    background-repeat:no-repeat;
+    padding-top:128px;
+}
+
+#ld-content .carousel ul.feature-carousel li.action {
+    border: 0;
+    display: none;
+    /*width: 3.9%;*/
+    width: 31px;
+    margin:0;
+}
+.carousel ul.feature-carousel li.action a {
+    display: block;
+    height: 221px;
+    overflow: hidden;
+    position: relative;
+    z-index: 5;
+    text-indent:-999em;
+    overflow:auto;
+    outline:0;
+}
+.carousel ul.feature-carousel li.action a.pager-prev {
+    background:url(images/Carousel/assets/images/carousel_arrow_left.png) no-repeat -4px 0;
+}
+.carousel ul.feature-carousel li.action a.pager-next {
+    background:url(images/Carousel/assets/images/carousel_arrow_right.png) no-repeat 2px 0;
+}
+.carousel ul.feature-carousel li ul {
+    list-style: none;
+}
+.carousel ul.feature-carousel.no-pager li li, ul.feature-carousel li li {
+    border: 0 none;
+    float: none;
+    height: auto;
+    margin-bottom: 5px;
+    overflow: visible;
+    padding-left: 10px;
+    width: auto;
+}
+.carousel ul.feature-carousel.no-pager {
+    border-left: 1px solid #DDDDDD;
+    border-right: 1px solid #FFFFFF;
+    border-top: 0 none;
+    height: auto;
+    overflow: visible;
+    padding-left:5px;
+}
+.carousel ul.feature-carousel.no-pager li {
+    overflow: hidden;
+     width:24.9%;
+}
+.carousel ul.feature-carousel.no-pager li div.content {padding:0px 10px;}
+
+/* 66% */
+.col-66 .carousel ul.feature-carousel {height:153px;}
+#ld-content .col-66 .carousel ul.feature-carousel li {height:150px; width: 140px;}
+#ld-content .col-66 .carousel ul.feature-carousel li.action {width: 24px;}
+
+.col-66 .carousel ul.feature-carousel div.content { height:137px;padding:0 4px; }
+
+.col-66 .carousel ul.feature-carousel div.content a {padding-top:50px;}
+
+.col-66 .carousel ul.feature-carousel li.action a.pager-prev {
+    background-image:url(images/Carousel/assets/images/carousel_arrow_left-153.png); 
+}
+.col-66 .carousel ul.feature-carousel li.action a.pager-next {
+    background-image:url(images/Carousel/assets/images/carousel_arrow_right-153.png);
+}
+
+.cbtPagerContainer ul.cbtPagerNav {display:block;clear:both;}
+.cbtPagerContainer ul.cbtPagerNav li {float:left;background:none!important;}
+
+.wlLoading
+{
+    background: url('images/GenericCBT/Assets/images/throbber.gif') no-repeat 50%;    
+    height: 100%;
+    width: 100%;
+    top: 0;
+    position: absolute;
+    display: none;
+}
+
+
+.ow .owfc {/*display:inline-block*/;clear:both;}
+
+/* Widget - TagCloud */
+
+.ow .owitems ul.tagCloud {margin-left: 0;list-style-type: none;}
+
+.ow .owitems ul.tagCloud li {margin: 0.1em 0.6em;display:inline !important;float: none !important;}
+
+.ow .owitems ul.tagCloud li.verySmall {font-size: 130%;}
+
+.ow .owitems ul.tagCloud li.small {font-size: 160%;}
+
+.ow .owitems ul.tagCloud li.medium {font-size: 190%;}
+
+.ow .owitems ul.tagCloud li.large {font-size: 230%;}
+
+.ow .owitems ul.tagCloud li.veryLarge {font-size: 260%;}
+
+.ow .owitems a.fullListLink {
+    padding-left: 30px;
+    background: url('http://www.knowledge.scot.nhs.uk/css/Communities/Summer/tagIcon.png') left center no-repeat;
+    font-weight: bold;
+    font-size: 120%;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+}
+
+.ow .owitems .ResourceTagCloudMini a.fullListLink,
+.ow .owitems .PeopleTagCloudMini a.fullListLink
+{
+    background-image: url('http://www.knowledge.scot.nhs.uk/css/Communities/Summer/tagIcon.png');
+    display:inline-block;
+    margin-top: 10px;
+    padding: 5px 5px 5px 30px;
+}
+
+.owWidgetContentPanel {margin:0px;font-size:0.8em;margin:0px 0px 5px 0px;}
+.owWidgetContentPanel .simplePagerContainer .simplePagerContainer .owitem { padding-left: 10px; }
+.ow .owitems {list-style:none;margin:0px 0px 5px 0px;padding:0px;}
+.ow .owitems .owitem {border:solid 1px #dcdcdc;height:200px;overflow:scroll;background-color:#fff;list-style:none;margin:0px;padding:10px;}
+.ow .simplePagerNav {display:block;float:left;margin:10px 0px 0px 0px;}
+.ow .simplePagerNav li span.text {display: none;}
+/*.ow ul.NextNav span.text {display:none;}*/
+.ow .simplePagerNav li span.image {margin-right: 5px; display:block;width:21px;height:20px;background:url('http://www.widgetlibrary.knowledge.scot.nhs.uk/WidgetResources/Overview/images/overview-paging-square.png') center center no-repeat;}
+.ow .simplePagerNav li.currentPage span.image {display:block;width:21px;height:20px;background:url('http://www.widgetlibrary.knowledge.scot.nhs.uk/WidgetResources/Overview/images/overview-paging-square-selected.png') center center no-repeat;}
+.ow .simplePagerNav li,.NextNav li {display:block;float:left;margin:0px 2px 0px 2px!important;}
+.ow .NextNav {display:block;float:right;margin:10px 0px 0px 0px;}
+
+/*.ow li.simplePageNavPrev span.image {display:block;width:16px;height:16px;background:url('http://www.widgetlibrary.knowledge.scot.nhs.uk/WidgetResources/Overview/images/rewind.png') center center no-repeat;}
+.ow li.simplePageNavNext span.image {display:block;width:16px;height:16px;background:url('http://www.widgetlibrary.knowledge.scot.nhs.uk/WidgetResources/Overview/images/fast_forward.png') center center no-repeat;}*/
+
+.ow a.rssLink {
+background:url('http://www.knowledge.scot.nhs.uk/css/Communities/Summer/rss.png') no-repeat scroll left center transparent;
+display:block;
+float:left;
+font-weight:bold;
+padding-bottom:0.9em;
+padding-left:38px;
+padding-top:0.9em;
+}
+
+div.owSeachPanel input#txtSearch
+{
+    border:2px solid #A2C573;
+    padding:3px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+div.owWidgetContentPanel ul.owitems li.owitem
+{
+    background-image: none !important;
+}
+
+ul.simplePagerNav li,
+ul.NextNav li.simplePageNavPrev,
+ul.NextNav li.simplePageNavNext
+
+{
+    background-image: none !important;
+    padding-left: 0 !important;
+}
+
+ul.cbtnav li 
+{
+    margin-left: 10px;
+}
+
+ul.tagCloud li
+{
+    background-image: none !important;
+    padding-left: 0 !important;
+}
+
+
+/*=====*/
+/* CBT OverviewWidget */
+
+#content .ow .owCommunityContentPanel
+{
+    background-color: #F4F9FF;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    position: relative;
+    
+}
+
+#ld-content .ow .owCommunityContentPanel
+{
+    background-color: #F4F9FF;
+    padding: 0.5em 0.5em 1.5em 0.5em;
+    margin-bottom: 1em;
+    position: relative;
+}
+
+#content .ow .owCommunityContentPanel img,
+#ld-content .ow .owCommunityContentPanel img
+{
+    float: left;
+    margin: 0 8px 5px 0;
+    border: 1px solid #868D97;
+    width: 80px;
+}
+
+#content .ow .owCommunityContentPanel h3,
+#ld-content .ow .owCommunityContentPanel h3
+{
+    font-size: 12px;
+}
+
+#content .ow .owCommunityContentPanel .owMoreinfo,
+#ld-content .ow .owCommunityContentPanel .owMoreinfo
+{
+    clear: both; /*margin-left: 90px;*/
+}
+
+#content .ow .owCommunityContentPanel a.owMoreinfolink,
+#ld-content .ow .owCommunityContentPanel a.owMoreinfolink
+{
+    position: relative;
+    right: 5px;
+    bottom: 20px;
+    display: block;
+    background: url(http://www.widgetlibrary.knowledge.scot.nhs.uk/WidgetResources/Overview/images/overview-more-button.png) left top no-repeat;
+    color: #2F3030;
+    font-weight: bold;
+    width: 58px;
+    height: 20px;
+    padding-top: 2px;
+    padding-left: 3px;
+    font-size:1.2em;
+    float:right;
+}
+
+#content .ow .owCommunityContentPanel a.owMoreinfolinkUp,
+#ld-content .ow .owCommunityContentPanel a.owMoreinfolinkUp
+{
+    background: url(http://www.widgetlibrary.knowledge.scot.nhs.uk/WidgetResources/Overview/images/overview-more-button-up.png) left top no-repeat !important;
+}
+
+#content .ow .owCommunityContentPanel a.owMoreinfolink:hover,
+#ld-content .ow .owCommunityContentPanel a.owMoreinfolink:hover 
+{
+    text-decoration: none;
+}
+
+#content .ow .owSeachPanel,
+#ld-content .ow .owSeachPanel
+{
+    border-top: 1px solid #A8A8A8;
+    border-bottom: 1px solid #A8A8A8;
+    padding: 0.6em 0;
+    overflow:hidden;
+zoom: 1;
+}
+
+#content .ow .owSeachPanel input#txtSearch,
+#ld-content .ow .owSeachPanel input#txtSearch
+{
+    margin: 0;
+    border: 2px solid #CFCFCF;
+    width: 95%;
+}
+
+#content .ow .owSeachPanel .formRow,
+#ld-content .ow .owSeachPanel .formRow
+{
+    /*margin-right: 100px;*/
+    width:79%;
+    padding-bottom: 0;
+    float: left;
+overflow: hidden;
+}
+
+#content .ow .owSeachPanel .formRow label,
+#ld-content .ow .owSeachPanel .formRow label 
+{
+    display: none;
+}
+
+#content .ow .owSeachPanel input#btnSearch,
+#ld-content .ow .owSeachPanel input#btnSearch
+{
+    border: none;
+    background: url(http://www.widgetlibrary.knowledge.scot.nhs.uk/WidgetResources/Overview/images/overview-search-button.png) left top no-repeat;
+    width: 93px;
+    height: 25px;
+    font-weight: bold;
+    font-size: 12px;
+    /*position: absolute;
+    top: 7px;
+    right: 0;*/
+    float: left;
+}
+
+#content .ow .owWidgetContentPanel .owitems .owitem,
+#ld-content .ow .owWidgetContentPanel .owitems .owitem
+{
+    border: 2px solid #E0E0E0;
+    margin: 1em 5px 5px;
+    overflow: auto;
+    padding: 0.8em !important;
+}
+
+#content .ow .owWidgetContentPanel .owitems .owitem .boxInner,
+#content .ow .owWidgetContentPanel .owitems .owitem .boxContent,
+#ld-content .ow .owWidgetContentPanel .owitems .owitem .boxInner,
+#ld-content .ow .owWidgetContentPanel .owitems .owitem .boxContent
+{
+    background-image: none;
+    margin: 0;
+    padding: 0;
+}
+
+#content .ow .owWidgetContentPanel .owitems .owitem,
+#ld-content .ow .owWidgetContentPanel .owitems .owitem
+{
+    font-size: 150%;
+}
+
+#content .ow .owWidgetContentPanel .owitems .owitem ul.tagCloud,
+#ld-content .ow .owWidgetContentPanel .owitems .owitem ul.tagCloud
+{
+    font-size: 90%;
+}
+
+#content .ow .owWidgetContentPanel .owitems .owitem h3,
+#ld-content .ow .owWidgetContentPanel .owitems .owitem h3
+{
+    margin-top: 0.2em;
+    margin-bottom: 0.7em;
+    color: #333;
+    font-size: 130%;
+    border-bottom: 1px solid #ddd;
+}
+
+#content .ow .owWidgetContentPanel .owitems .owitem .hidden,
+#ld-content .ow .owWidgetContentPanel .owitems .owitem .hidden
+{
+    display: none;
+}
+
+#content .ow .owRSSLink,
+#ld-content .ow .owRSSLink
+{
+    border-top: 2px solid #E8E8E8;
+    padding-top: 0.3em;
+}
+
+#content .ow .owRSSLink a.rssLink,
+#ld-content .ow .owRSSLink a.rssLink
+{
+    float: none;
+    font-size: 120%;
+}
+
+#content .ow .owWidgetContentPanel .owitems .owitem ul,
+#ld-content .ow .owWidgetContentPanel .owitems .owitem ul
+{
+    margin-left: 0em;
+}
+
+#content .ow .owWidgetContentPanel .simplePagerNav,
+#ld-content .ow .owWidgetContentPanel .simplePagerNav
+{
+    margin: 0px 0px 5px 0px;
+}
+
+/*#content .ow .owWidgetContentPanel .simplePagerNav .image
+{
+    background: url(/images/overview-paging-square.png) left top no-repeat;
+    width: 21px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+#content .ow .owWidgetContentPanel .simplePagerNav .currentPage .image
+{ background: url(/images/overview-paging-square-selected.png) left top no-repeat; }*/
+
+#content .ow .owWidgetContentPanel .NextNav,
+#ld-content .ow .owWidgetContentPanel .NextNav
+{
+    margin-top: 0;
+}
+
+#content .ow .owWidgetContentPanel .NextNav .text,
+#ld-content .ow .owWidgetContentPanel .NextNav .text
+{
+    display: inline;
+}
+
+#content .ow .owWidgetContentPanel .simplePageNavPrev a,
+#content .ow .owWidgetContentPanel .simplePageNavNext a,
+#ld-content .ow .owWidgetContentPanel .simplePageNavPrev a,
+#ld-content .ow .owWidgetContentPanel .simplePageNavNext a
+{
+    padding-left: 18px;
+    background: url(/images/overview-paging-arrow-left.png) left center no-repeat;
+    font-size: 110%;
+    font-weight: bold;
+    margin-right: 1em;
+}
+
+#content .ow .owWidgetContentPanel .simplePageNavNext a,
+#ld-content .ow .owWidgetContentPanel .simplePageNavNext a
+{
+    padding-right: 18px;
+    padding-left: 0;
+    background: url(/images/overview-paging-arrow-right.png) right center no-repeat;
+}
+
+#content .ow .owWidgetContentPanel .NextNav .image,
+#ld-content .ow .owWidgetContentPanel .NextNav .image
+{
+    display: none;
+}
+
+/* CBT OverviewWidget - Recent Activity Widget */
+/*
+#content .ow .RecentActivity a.rssLink
+{
+    display: none;
+}
+*/
+#content .ow .owWidgetContentPanel .owitems .owitem .RecentActivity .ActivityList h3,
+#ld-content .ow .owWidgetContentPanel .owitems .owitem .RecentActivity .ActivityList h3
+{
+    border-bottom: none;
+    font-size: 110%;
+    color: #333;
+}
+
+#content .ow .owWidgetContentPanel .owitems .owitem .RecentActivity .ActivityList ul,
+#ld-content .ow .owWidgetContentPanel .owitems .owitem .RecentActivity .ActivityList ul
+{
+    margin-bottom: 1.6em;
+}
+
+/*
+#content .ow .owWidgetContentPanel .owitems .owitem .RecentActivity .widgetFooter .linkButton a
+{
+    font-size: 120%;
+    font-weight: bold;
+    display: block;
+    padding-top: 0.4em;
+    background:none;
+}
+*/
+#content .ow .owWidgetContentPanel .TopicLinks ul.cbtPagerNav,
+#ld-content .ow .owWidgetContentPanel .TopicLinks ul.cbtPagerNav
+{
+    margin-left: 0.5em;
+    list-style:none;
+}
+
+#content .ow .owWidgetContentPanel .TopicLinks ul.cbtPagerNav li,
+#ld-content .ow .owWidgetContentPanel .TopicLinks ul.cbtPagerNav li
+{
+    margin:10px 0px 5px 10px;
+}
+
+#content .ow .owWidgetContentPanel .TopicLinks ul.cbtPagerNav li.currentPage,
+#ld-content .ow .owWidgetContentPanel .TopicLinks ul.cbtPagerNav li.currentPage
+{
+    font-weight:bold;
+}
+
+.ow .owMoreinfo li {font-size:1.1em;padding:0 5em 0 0;}
+
+
+.eppollwidget
+{
+    background-color:#EEFAE0;
+    border:1px solid #5A8721;
+    border-radius:3px;
+    padding:6px;
+}
+
+.eppollwidget h3
+{
+    background-image:url(images/Poll/Assets/bars.PNG);
+    background-position:center right;
+    font-weight:bold;
+    color:#000;
+    margin:6px;
+}
+
+.eppollwidget h4
+{
+    margin:12px 6px;
+    text-align:left;
+    font-size:13px;
+    color:#000;
+}
+
+.eppollwidget label
+{
+    color:#000;
+    font-weight:normal;
+}
+
+.eppollwidget th h4
+{
+    margin:0;
+    text-align:left;
+    font-size:13px;
+    color:#000;
+}
+
+.eppollwidget tbody td
+{
+    margin-left:0.5em;
+    color:#000;
+}
+
+#content .learningmodule_widget ul.modules,
+#mainContent .padded-block ul.modules
+{
+    border-top: 1px solid #E0E3E4;
+    padding-top: 10px;
+    margin-top: 0px;
+    margin-left: 0;
+    list-style-type:none;
+}
+
+
+.learningmodule_widget p.defaultSize {
+    display: none;
+}
+
+#mainContent .learningmodule_widget ul.modules li, #content .learningmodule_widget ul.modules li {
+	background: none;
+	padding-left: 0;
+	border-bottom: 1px solid #E0E3E4;
+	margin-bottom: 10px; /*was 30px */
+}
+
+.learningmodule_widget img
+{
+    margin-bottom: 10px;
+}
+
+.learningmodule_widget ul
+{
+    /*margin-left: 0;
+    list-style-type: none;*/
+}
+
+.learningmodule_widget ul li            
+{
+    font-size: 12px;
+}
+
+.learningmodule_widget ul.modules h4
+{
+    font-weight: bold;
+    font-size: 120%;
+}
+
+.learningmodule_widget a.more{
+    background:url("images/SharedResources/images/more-arrow-right.png") no-repeat scroll 4px 8px #F4F4F4;
+    border-bottom:1px solid #E0E3E4;
+    cursor:pointer;
+    display:block;
+    padding:3px 3px 3px 15px;
+    font-weight: bold;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+
+.learningmodule_widget a.more:hover {
+    background-color: #407000;
+}
+
+.learningmodule_widget a.expanded {
+    background:url("images/SharedResources/images/more-arrow-up.png") no-repeat scroll 4px 8px #F4F4F4;
+}
+
+.learningmodule_widget ul.modules a.moduleFullDetails
+{
+    font-weight: bold;
+}
+
+	#mainContent .learningmodule_widget ul.modules li p a, #content .learningmodule_widget ul.modules li p a {
+		background:url("/images/global/nav-arrow.png") no-repeat scroll left 6px transparent;
+		padding-left:6px;
+	}
+
+		/*#mainContent .learningmodule_widget ul.modules li p a:hover, #content .learningmodule_widget ul.modules li p a:hover {
+			background: #407000;
+		}*/
+
+#mainContent .learningmodule_widget ol li, #content .learningmodule_widget ol li {
+  border-bottom: 0 !important;
+  overflow: visible;
+}
+
+form#EducationAndLearningSearch label
+{
+	float: left;
+	clear: left;
+	margin-bottom: 1em;
+	width: 110px;
+	margin-right: 10px;
+	color: #222;
+	margin-top: 5px;
+	display: block;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+form#EducationAndLearningSearch label.nudge {
+    padding-left:15px;
+    width:110px;
+}
+
+form#EducationAndLearningSearch input#resourceTitle,
+form#innerSearchForm input#resourceTitle {
+    background-color: #fff;
+	font-size: 1.1em;
+	height:	13px;
+	margin-bottom: 1em;
+	padding: 4px;
+	text-indent: 4px;
+	width: 77.5% /*531px*/;
+	background-color:#FFFFFF;
+    border:1px solid #959595;
+}
+
+form#innerSearchForm input#resourceTitle 
+{
+    width: 75%;
+}
+
+form#EducationAndLearningSearch select {
+    background-color:#FFFFFF;
+    border:1px solid #959595;
+    margin-bottom:1em;
+    padding:4px;
+    width:54%;
+}
+
+form#EducationAndLearningSearch .halfish {
+    width:50%;
+}
+
+form#EducationAndLearningSearch input.button
+{
+    font-weight:bold;
+    height:auto;
+    padding-bottom:2px;
+    padding-left:5px;
+    padding-top:2px;
+    min-width:92px;
+    margin-right:22px;
+    width:92px; 
+    width:auto!important;
+}
+
+#mainContent .learningmodule_widget ul.modules li,
+#content .learningmodule_widget ul.modules li {
+    margin-bottom: 5px;
+    list-style-type: decimal;
+}
+
+#mainContent .learningmodule_widget ul.modules,
+#content .learningmodule_widget ul.modules {
+    list-style-type: decimal;
+}
+
+#mainContent .learningmodule_widget ul.modules li li {
+    margin-bottom: 5px;
+}
+
+
+li.faq_widget {
+    color: #565656;
+    /* font-size: 10px; */
+    font-size: 1.2em;
+    font-family: arial;
+}
+
+li.faq_widget,
+li.faq_widget ul.faqList,
+li.faq_widget ul.faqQuestions {
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+li.faq_widget ul.faqList li,
+li.faq_widget ul.faqQuestions li {
+	background: none !important;
+	padding-left: 0 !important;
+	margin: 0 !important;
+    clear: both;
+}
+
+li.faq_widget p {
+    margin-top: 0;
+}
+
+li.faq_widget .wrapper {
+    padding: 10px;
+    background-color: #F9F9F7;
+}
+
+li.faq_widget ul.faqList {
+    border: 1px solid #fff;
+}
+
+li.faq_widget div.boxInner {
+    padding: 10px;
+    margin-right: 0;
+}
+
+li.faq_widget div.OuterContent {
+    background: url('images/FAQ/Assets/images/faqWidgetBg.png') repeat-x;
+}
+
+#ld-content li.faq_widget ul.faqList h3.section,
+li.faq_widget ul.faqList h4.question{
+    margin: 0;
+}
+
+li.faq_widget ul.faqList h3.section {
+    background: #fff url('images/FAQ/Assets/images/faqSection.jpg') bottom left repeat-x !important;
+}
+
+#ld-content li.faq_widget ul.faqList h3 span,
+#MyCommunitySpace li.faq_widget ul.faqList h3 span { 
+    cursor: pointer;
+    color: #017697;
+    display: block;
+    background: url('images/FAQ/Assets/images/faq-section-arrow-right.png') no-repeat 10px center !important;
+    border-bottom: 1px solid #dee0db;
+    padding: 4px 5px 4px 25px;
+    font-family: arial;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+li.faq_widget ul.faqList li h3 span {
+    background: url('images/FAQ/Assets/images/faq-section-arrow-right.png') no-repeat scroll 10px center transparent !important;
+    display: block;
+    font-size: 12px;
+    padding: 5px 0 5px 30px;
+}
+
+li.faq_widget ul.faqList li.selected h3 span {
+    background: url('images/FAQ/Assets/images/faq-section-arrow-down.png') no-repeat scroll 10px center transparent !important;
+    display: block;
+    font-size: 12px;
+    padding: 5px 0 5px 30px;
+}
+
+li.faq_widget ul.faqQuestions h4 span {
+    color: #017697;
+    cursor: pointer;
+    border-bottom: 1px solid #deedf0;
+    display: block;
+    padding: 5px 5px 5px 25px;
+    background: url('images/FAQ/Assets/images/faq-arrow-right.png') no-repeat 10px center;
+    font-family: arial;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+li.faq_widget ul.faqQuestions li.selected h4 span {
+    background: url('images/FAQ/Assets/images/faq-arrow-down.png') no-repeat 10px center;
+}
+
+li.faq_widget div.introTxt h2{
+	background: none;
+	background-image: none;
+	background-color: #fff;
+	color: #565656;
+}
+
+li.faq_widget div.introTxt h3{
+	font-weight: bold;
+}
+
+
+
+/*-------------------------------------------
+			Features Styles
+-------------------------------------------*/
+
+#content .featuresWidget
+{
+    /*background: #6E6E6E url(/images/greyCornerBottomRight.png) no-repeat bottom right;*/
+}
+
+#content .featuresWidget ul.featureTabs,
+#ld-content .featuresWidget ul.featureTabs
+{
+    float: right;
+    margin-left: 0;
+    width: 40%;
+}
+
+#content .featuresWidget ul.featureTabs li,
+#ld-content .featuresWidget ul.featureTabs li
+{
+    background: none;
+    margin:0;
+    overflow: hidden;
+    padding: 0; 
+}
+
+#content .featuresWidget ul.featureTabs li a,
+#ld-content .featuresWidget ul.featureTabs li a
+{
+    display:block;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px 15px;
+}
+
+#content .featuresWidget ul.featureTabs li.active a {}
+
+#content .featuresWidget ul.featureTabs li.last,
+#ld-content .featuresWidget ul.featureTabs li.last {border: 0;}
+
+#content .featuresWidget ul.featureTabs li.last a,
+#ld-content .featuresWidget ul.featureTabs li.last a
+{
+    margin-top: 10px;
+    margin-left: 5px;
+    float:left;
+    font-size:1em;
+    padding:3px 7px 3px 16px;
+}
+
+#content .featuresWidget .boxContent,
+#ld-content .featuresWidget .boxContent
+{
+    padding:0;
+    margin-right: 0;
+}
+#content .featuresWidget .boxInner,
+#ld-content .featuresWidget .boxInner
+{
+    margin-right:0;
+    overflow:hidden;
+    padding-left:0;
+    padding-top: 0;
+    zoom:1;
+    position: relative;
+}
+
+#content .featuresWidget .fc .fc,
+#ld-content .featuresWidget .fc .fc
+{
+    float: left;
+    width: 59%;
+}
+
+#content .featuresWidget h2.fc,
+#ld-content .featuresWidget h2.fc 
+{
+    float: none;
+    width: auto;
+}
+
+#content .featuresWidget .innerContent,
+#ld-content .featuresWidget .innerContent
+{
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+#content .featuresWidget .outerContent .innerContent,
+#ld-content .featuresWidget .outerContent .innerContent {
+    padding: 0 0 10px 0;
+}
+
+#content .featuresWidget div.featureContainer 
+{
+	border-color: #6E6E6E;
+}
+
+#content .featuresWidget div.featureContainer,
+#ld-content .featuresWidget div.featureContainer
+{
+    float: none;
+    position: relative;
+    width: auto;
+    display: none;
+}
+
+#content .featuresWidget div.featureContainer img,
+#ld-content .featuresWidget div.featureContainer img
+{
+    width: 100%;
+}
+
+#content .featuresWidget div.featureContainer a,
+#ld-content .featuresWidget div.featureContainer a
+{
+    padding:2px 7px 2px 10px;
+}
+
+#content .featuresWidget div.featureContainer div.featureInnerContent,
+#ld-content .featuresWidget div.featureContainer div.featureInnerContent
+{
+    padding: 15px 0;
+    left:0;
+    bottom: 0;
+    width: 100%;
+    /*opacity: 0.85;
+    background-color: #000 #5F5F5F;
+    width: 59.5%;
+    left: 2px;
+    bottom: 15px;*/
+}
+
+#content .featuresWidget div.featureContainer div.featureInnerContent p,
+#ld-content .featuresWidget div.featureContainer div.featureInnerContent p {
+    padding: 0 15px;
+}
+
+.googleNewsWidget ul, .googleNewsWidget ol
+{
+    font-size: 120%;
+    margin-bottom: 10px;
+}
+
+li.googleNewsWidget a.more,
+.GoogleNewsEvents dl { font-size:1.2em; }
+
+div.GoogleNewsEvents dt { font-weight:bold;padding-bottom:8px; }
+
+div.GoogleNewsEvents dt,
+div.GoogleNewsEvents dd.last {border-bottom:1px solid #E0E3E4;}
+
+div.GoogleNewsEvents dt,
+div.GoogleNewsEvents dd { width:100%;float:none;margin-left:0; }
+
+div.GoogleNewsEvents dd.last { padding-bottom:8px;border-width:1px; }
+
+li.googleNewsWidget a.rssLink  {
+background:url('http://www.knowledge.scot.nhs.uk/css/Communities/Summer/rss.png') no-repeat scroll left center transparent;
+display:block;
+float:left;
+font-weight:bold;
+padding-bottom:0.9em;
+padding-left:38px;
+padding-top:0.9em;
+}
+
+div.ImageWidget {
+    position: relative;
+}
+
+
+div.ImageWidget div.PagingLinks a {
+    display: block;
+    height: 22px;
+    text-indent: -9999px;
+    width: 11px;
+}
+div.ImageWidget div.Next {
+    background: url("images/ImageScrolling/assets/images//rightArrow.png") no-repeat scroll right center transparent;
+    float: right;
+}
+
+div.ImageWidget div.PagingLinks a:active, div.ImageWidget div.PagingLinks a:focus {
+    outline: medium none;
+}
+
+div.ImageWidget div.Previous {
+    background: url("images/ImageScrolling/assets/images/leftArrow.png") no-repeat scroll left center transparent;
+    float: left;
+}
+
+div.ImageWidget div.Previous {
+    left: 8px;
+}
+
+div.ImageWidget div.PagingLinks {
+    display: block;
+    position: absolute;
+    top: 145px;
+    z-index: 1;
+}
+
+div.ImageWidget div.Next {
+    right: 8px;
+}
+
+div.ImageWidget  ul li div.ImageWidgetContainer {
+    display: block;
+    height: 260px;
+    margin-top: 15px;
+    overflow: hidden;
+    table-layout: fixed;
+    width: 100%;
+}
+div.ImageWidget  ul li div.ImageWidgetContainer div.ImageWidgetContainerInner {
+    display: block;
+    text-align: center;
+    vertical-align: middle;
+}
+
+div.ImageWidget ul li div.ImageWidgetContainer div.ImageWidgetContainerInner a {
+    display: block;
+}
+
+div.ImageWidget ul li div.ImageWidgetContainer {
+    height: 240px;
+}
+
+div.ImageWidget p {
+    font-size: 120%;
+    font-weight: bold;
+    margin-top: 1em;
+    text-align: center;
+}
+
+/*-------------------INFORMATION LITERACY WIDGET ------------------------*/
+li.cycle_widget ul.ilCycle {
+	background: url(http://www.widgetlibrary.knowledge.scot.nhs.uk/WidgetResources//informationLiteracy/portal/ilCycle.png) no-repeat 50% top;
+	margin: 0 auto 15px auto !important;
+	position: relative;
+	width: 217px;
+	height: 207px;
+}
+
+	li.cycle_widget ul.ilCycle li {
+		background: transparent !important;
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		position: absolute;
+		text-indent: -11000em;
+	}
+
+		li.cycle_widget ul.ilCycle li a {
+			display: block;
+			height: 100%;
+			overflow: hidden;
+			width: 100%;
+		 	background: none;
+		}
+
+			li.cycle_widget ul.ilCycle li.questions {
+				height:50px;
+				left:80px;
+				top:7px;
+				width:59px;
+			}
+
+			li.cycle_widget ul.ilCycle li.source {
+				height:50px;
+				left:143px;
+				top:34px;
+				width:59px;
+			}
+
+			li.cycle_widget ul.ilCycle li.find {
+				height:50px;
+				left:164px;
+				top:97px;
+				width:40px;
+			}
+
+			li.cycle_widget ul.ilCycle li.evaluate {
+				height:42px;
+				left:123px;
+				top:153px;
+				width:55px;
+			}
+
+			li.cycle_widget ul.ilCycle li.combine {
+				height:44px;
+				left:48px;
+				top:153px;
+				width:63px;
+			}
+
+			li.cycle_widget ul.ilCycle li.share {
+				height:57px;
+				left:11px;
+				top:92px;
+				width:43px;
+			}
+
+			li.cycle_widget ul.ilCycle li.apply {
+				height:48px;
+				left:27px;
+				top:35px;
+				width:45px;
+			}
+
+li.cycle_widget h4
+{
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.multiColumnTab
+{
+	margin-bottom: 10px;
+}
+
+.multiColumnTab .tabContent
+{
+	padding: 0 10px 10px 10px;
+}
+
+.multiColumnTab .tabTriggers
+{
+	background: url(Images/MultiColumnTab/Assets/FrontEnd/Images/qitTabsBG.png) repeat-x bottom left !important;
+	padding: 0 7px 7px 7px;
+	list-style-type: none;
+	margin-bottom: 5px;
+}
+
+.multiColumnTab .tabTriggers li
+{
+	float: left;
+	background: #DAE3CD url(Images/MultiColumnTab/Assets/FrontEnd/Images/qitTabInactiveBG.png) repeat-x !important;
+	border: 1px solid #7D8487;
+	padding: 0;
+	margin: 0 1px 0 0;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	overflow:visible;
+}
+		
+.multiColumnTab .tabTriggers li a,
+body#CG .multiColumnTab .tabTriggers li a
+{
+	color: #000;
+	display: block;
+	padding: 5px;
+	font-weight: bold;
+	font-size: 12px;		
+}
+
+.multiColumnTab .tabTriggers li a:hover
+{
+	background-color: transparent;
+}
+
+.multiColumnTab .tabTriggers li.active
+{
+	background: #BBD1C5 url(Images/MultiColumnTab/Assets/FrontEnd/Images/qitTabActiveBG.png) repeat-x !important;
+	border-bottom: 1px solid #BBD1C5;
+}
+
+.multiColumnTab img.fr {
+    margin: 0 0 10px 10px;
+}
+
+.multiColumnTab img.fl {
+    margin: 0 10px 10px 0;
+}
+
+.multiColumnTab .tabContent ul,
+.multiColumnTab .tabContent ol {
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.multiColumnTab .tabContent li {
+    zoom: 1;
+    margin-bottom: 5px;
+    overflow: hidden;
+    padding-left: 10px;
+}
+
+.multiColumnTab form label {
+    display: block;
+    font-weight: bold;
+}
+
+.multiColumnTab form input.text {
+    font-size: 1.2em;
+    width: 75%;
+    /*width: 257px;*/
+    border:2px solid #CFCFCF;
+    float:left;
+    margin-right:10px;
+    margin-top:3px;
+    padding:5px;
+}
+
+.multiColumnTab form input.button {
+
+}
+
+.multiColumnTab .tabContent h2 { background:none; }
+
+
+.multiColumnTab .tabContent .tabColumns
+{
+    padding-left: 0;
+}
+
+
+
+.multiColumnTab .tabContent ul.tabColumns li
+{
+    background: none;
+    padding-left: 0;
+    float: left;
+    width: 49%;
+}
+
+.multiColumnTab .tabContent ul.tabColumns li li
+{
+    float: none;
+    width: auto;
+}
+
+.multiColumnTab .tabContent .tabColumns li.last
+{
+    float: right;
+}
+
+.multiColumnTab .tabContent .rssFeeds ul,
+.multiColumnTab .tabContent .topicLinks ul
+{
+    padding-left: 0;
+}
+
+.multiColumnTab .tabContent .rssFeeds ul li,
+.multiColumnTab .tabContent .topicLinks ul li
+{
+    float: none;
+    padding-left: 0;
+    background: url(Images/SharedResources/images/nav-arrow.png) left center no-repeat !important;
+    padding-left: 12px;
+}
+
+.multiColumnTab .tabContent .rssFeeds .title,
+.multiColumnTab .tabContent .topicLinks .title
+{
+    font-weight: bold;
+}
+
+.multiColumnTab .tabContent .tabColumns li img.left
+{
+    float: left;
+    margin: 15px 10px 2px 0;
+}
+
+.multiColumnTab .tabContent .tabColumns li img.right
+{
+    float: right;
+    margin: 15px 0 2px 10px;
+}
+
+.nhsmap_widget {
+    /*width: 400px; I believe this is not required here.*/ 
+}
+
+.nhsmap_widget,
+.nhsmap_widget ul.nhsmap{
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+    font-family: arial;
+    font-size: 10px;
+    color: #555;
+}
+
+.nhsmap_widget span.mapTooltip {
+    background-color: #0071c0;
+    color: #fff;
+    font-weight: bold;
+    font-size: 10px;
+    border: 2px solid #d4d4d4;
+    padding: 5px;
+    position: absolute;
+    top: -20px;
+    white-space:nowrap;
+    z-index: 19;
+}
+
+.nhsmap_widget span.mapTooltipTail {
+    position: absolute;
+    left: 10px;
+    bottom: -7px;
+    height: 7px;
+    width: 9px;
+    background:url('images/NHSBoardMap/Assets/images/mapTooltipTail.png') no-repeat;
+    text-decoration: none;
+    border: 0;
+    z-index: 20;
+    display: block;
+    zoom: 1;
+    overflow: hidden;
+}
+
+.nhsmap_widget div.userContnent {
+    font-size: 12px;
+}
+
+.nhsmap_widget .formContainer {
+    width: 49%;
+    float: left;
+}
+
+.nhsmap_widget select {
+    width: 65%;
+    margin-right: 5px;
+    float: left;
+    margin-top: 2px;
+    font-size: 10pt;
+} 
+
+.nhsmap_widget label {
+    color: #8c3171;
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+}
+
+.nhsmap_widget ul.nhsmap {
+    background: url('images/NHSBoardMap/Assets/images/nhsmap.png') no-repeat top left;
+    height: 280px;
+    width: 381px;
+    position: relative;
+    margin: 0 auto;
+    padding-bottom: 15px;
+}
+
+.nhsmap_widget ul.nhsmap li {
+    position: absolute;
+}
+
+.nhsmap_widget ul.nhsmap li a {
+    display: block;
+    text-indent: -11000em;
+    position: relative;
+    outline: none;
+}
+.nhsmap_widget ul.nhsmap li a.tooltipContainer {
+    text-indent: 0;
+    text-decoration: none;
+}
+
+
+
+.nhsmap_widget ul.nhsmap li.greaterglasgowandclyde {
+    bottom:72px;
+    left:140px;
+    z-index: 12;
+}
+.nhsmap_widget ul.nhsmap li.greaterglasgowandclyde a {
+    height:32px;
+    width:39px;
+}
+.nhsmap_widget ul.nhsmap li.greaterglasgowandclyde a:hover {
+    background: url('images/NHSBoardMap/Assets/images/nhsmap_greaterglasgowandclyde.png') no-repeat -138px -174px;
+}
+
+
+.nhsmap_widget ul.nhsmap li.dumfriesandgalloway {
+    bottom:5px;
+    left:125px;
+    z-index: 5;
+}
+.nhsmap_widget ul.nhsmap li.dumfriesandgalloway a {
+    height:56px;
+    width:93px;    
+}
+.nhsmap_widget ul.nhsmap li.dumfriesandgalloway a:hover {
+    background: url('images/NHSBoardMap/Assets/images/nhsmap_dumfriesandgalloway.png') no-repeat -124px -219px;
+}
+
+
+.nhsmap_widget ul.nhsmap li.ayrshireandarran {
+    bottom:30px;
+    right:204px;   
+    z-index: 7;
+}
+.nhsmap_widget ul.nhsmap li.ayrshireandarran a {
+    height:60px;
+    width:54px;    
+}
+.nhsmap_widget ul.nhsmap li.ayrshireandarran a:hover {
+    background: url('images/NHSBoardMap/Assets/images/nhsmap_ayrshireandarran.png') no-repeat -122px -191px;
+}
+
+
+
+.nhsmap_widget ul.nhsmap li.forthvalley {
+    bottom:88px;
+    right:186px;
+    z-index: 8;
+}
+.nhsmap_widget ul.nhsmap li.forthvalley a {
+    height:46px;
+    width:51px;    
+}
+.nhsmap_widget ul.nhsmap li.forthvalley a:hover {
+    background: url('images/NHSBoardMap/Assets/images/nhsmap_forthvalley.png') no-repeat -144px -146px;
+}
+
+
+.nhsmap_widget ul.nhsmap li.lanarkshire {
+    bottom:45px;
+    right:180px;
+    z-index: 11;
+}
+.nhsmap_widget ul.nhsmap li.lanarkshire a {
+    height:55px;
+    width:38px;
+}
+.nhsmap_widget ul.nhsmap li.lanarkshire a:hover {
+    background: url('images/NHSBoardMap/Assets/images/nhsmap_lanarkshire.png') no-repeat -163px -179px;
+}
+
+
+.nhsmap_widget ul.nhsmap li.borders {
+    bottom:36px;
+    right:130px;
+    z-index: 6;
+}
+.nhsmap_widget ul.nhsmap li.borders a {
+    height:56px;
+    width:60px;    
+}
+.nhsmap_widget ul.nhsmap li.borders a:hover {
+    background: url('images/NHSBoardMap/Assets/images/nhsmap_borders.png') no-repeat -189px -188px;
+}  
+
+
+
+.nhsmap_widget ul.nhsmap li.fife {
+    bottom:97px;
+    right:150px;
+    z-index: 9;
+}
+.nhsmap_widget ul.nhsmap li.fife a {
+    height:29px;
+    width:47px;    
+}
+.nhsmap_widget ul.nhsmap li.fife a:hover {
+    background: url('images/NHSBoardMap/Assets/images/nhsmap_fife.png') no-repeat -184px -154px;
+}
+
+
+.nhsmap_widget ul.nhsmap li.lothian {
+    bottom:74px;
+    right:144px;
+    z-index: 10;
+}
+.nhsmap_widget ul.nhsmap li.lothian a {
+    height:28px;
+    width:60px;
+}
+.nhsmap_widget ul.nhsmap li.lothian a:hover {
+    background: url('images/NHSBoardMap/Assets/images/nhsmap_lothian.png') no-repeat -178px -177px;
+}
+
+
+.nhsmap_widget ul.nhsmap li.westernisles {
+    left:12px;
+    top:11px;
+    z-index: 4;
+}
+.nhsmap_widget ul.nhsmap li.westernisles a {
+    height:115px;
+    width:93px;
+}
+
+.nhsmap_widget ul.nhsmap li.westernisles a:hover {
+    background: url('images/NHSBoardMap/Assets/images/nhsmap_westernisles.png') no-repeat -12px -11px;
+}
+
+
+.nhsmap_widget ul.nhsmap li.highland {
+    left:66px;
+    top:5px;
+    z-index: 1;
+}
+.nhsmap_widget ul.nhsmap li.highland a {
+    height:224px;
+    width:148px;
+}
+.nhsmap_widget ul.nhsmap li.highland a:hover {
+    background: url('images/NHSBoardMap/Assets/images/nhsmap_highland.png') no-repeat -66px -5px;
+}
+
+
+.nhsmap_widget ul.nhsmap li.tayside {
+    right:145px;
+    top:118px;
+    z-index: 3;
+}
+.nhsmap_widget ul.nhsmap li.tayside a {
+    height:56px;
+    width:86px;     
+}
+.nhsmap_widget ul.nhsmap li.tayside a:hover {
+    background: url('images/NHSBoardMap/Assets/images/nhsmap_tayside.png') no-repeat -150px -118px;
+}
+
+.nhsmap_widget ul.nhsmap li{
+	background: none !important;
+	overflow: visible !important;
+	padding-left: 0 !important;
+	margin: 0 !important;
+}
+
+.nhsmap_widget ul.nhsmap li.grampian {
+    right:121px;
+    top:67px;
+    z-index: 2;
+}
+.nhsmap_widget ul.nhsmap li.grampian a {
+    height:68px;
+    width:77px;
+}
+.nhsmap_widget ul.nhsmap li.grampian a:hover {
+    background: url('images/NHSBoardMap/Assets/images/nhsmap_grampian.png') no-repeat -183px -68px;
+}
+
+
+.nhsmap_widget ul.nhsmap li.shetland {
+    right:10px;
+    top:10px;
+    z-index: 13;
+}
+.nhsmap_widget ul.nhsmap li.shetland a {
+    height:95px;
+    width:60px;
+}
+.nhsmap_widget ul.nhsmap li.shetland a:hover {
+    background: url('images/NHSBoardMap/Assets/images/nhsmap_shetland.png') no-repeat -310px -12px;
+}
+
+.nhsmap_widget ul.nhsmap li.orkney {
+    right:61px;
+    top:110px;
+    z-index: 14;
+}
+.nhsmap_widget ul.nhsmap li.orkney a {
+    height:49px;
+    width:41px;
+}
+.nhsmap_widget ul.nhsmap li.orkney a:hover {
+    background: url('images/NHSBoardMap/Assets/images/nhsmap_orkney.png') no-repeat -278px -111px;
+}
+
+.nhsmap_widget input.submit
+{
+    float: left;
+    font-size: 1.2em !important;
+}
+
+li.nhsmap_widget div.formRow label
+{
+    width: 100% !important;
+}
+
+.nhsmap_widget span.error
+{
+    color: Red;
+}
+
+li.nhsmap_widget div.userContent h2{
+	background: none #fff;	
+	color: #565656;
+}
+
+li.nhsmap_widget div.userContent h3{
+	font-weight: bold;
+}
+
+/*-------------------Quality Strategy WIDGET ------------------------*/
+#content .qualitystrategy_widget p.qsCopyright
+{
+    margin: 0pt auto; 
+    position: relative; 
+    width: 283px;
+}
+
+#content .qualitystrategy_widget .qualitystrategyLogo
+{
+    background: url(http://www.widgetlibrary.knowledge.scot.nhs.uk/WidgetResources//QualityStrategy/images/qualityImage.png) no-repeat 100% top;
+    margin: 0 auto;
+    position: relative;
+    width: 283px;
+    height: 283px;
+}
+
+#content .qualitystrategy_widget .qualitystrategyLogo li
+{
+    background: transparent;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    text-indent: -11000em;
+    
+    height:97px;
+    width:97px;
+}
+
+#content .qualitystrategy_widget .qualitystrategyLogo li a
+{
+    display: block;
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+    background-color: transparent;
+}
+
+
+#content .qualitystrategy_widget .qualitystrategyLogo .effective
+{
+    left:91px;
+    top:19px;
+}
+
+#content .qualitystrategy_widget .qualitystrategyLogo li.effective a:hover, 
+#content .qualitystrategy_widget .qualitystrategyLogo li.effective a:focus{
+    background: url(http://www.widgetlibrary.knowledge.scot.nhs.uk/WidgetResources//QualityStrategy/images/qualityImage.png) no-repeat scroll -358px -19px transparent;
+}
+
+#content .qualitystrategy_widget .qualitystrategyLogo .efficient
+{
+    left:158px;
+    top:55px;
+}
+#content .qualitystrategy_widget .qualitystrategyLogo li.efficient a:hover, 
+#content .qualitystrategy_widget .qualitystrategyLogo li.efficient a:focus{
+    background: url(http://www.widgetlibrary.knowledge.scot.nhs.uk/WidgetResources//QualityStrategy/images/qualityImage.png) no-repeat scroll -708px -55px transparent;
+}
+
+#content .qualitystrategy_widget .qualitystrategyLogo .safe
+{
+    left:150px;
+    top:132px;
+}
+#content .qualitystrategy_widget .qualitystrategyLogo li.safe a:hover, 
+#content .qualitystrategy_widget .qualitystrategyLogo li.safe a:focus{
+    background: url(http://www.widgetlibrary.knowledge.scot.nhs.uk/WidgetResources//QualityStrategy/images/qualityImage.png) no-repeat scroll -983px -132px transparent;
+}
+
+#content .qualitystrategy_widget .qualitystrategyLogo .timely
+{
+    left:91px;
+    top:169px;
+}
+#content .qualitystrategy_widget .qualitystrategyLogo li.timely a:hover, 
+#content .qualitystrategy_widget .qualitystrategyLogo li.timely a:focus{
+    background: url(http://www.widgetlibrary.knowledge.scot.nhs.uk/WidgetResources//QualityStrategy/images/qualityImage.png) no-repeat scroll -1207px -169px transparent;
+}
+
+#content .qualitystrategy_widget .qualitystrategyLogo .personCentred
+{
+    left:23px;
+    top:132px;
+}
+#content .qualitystrategy_widget .qualitystrategyLogo li.personCentred a:hover, 
+#content .qualitystrategy_widget .qualitystrategyLogo li.personCentred a:focus{
+    background: url(http://www.widgetlibrary.knowledge.scot.nhs.uk/WidgetResources//QualityStrategy/images/qualityImage.png) no-repeat scroll -1422px -132px transparent;
+}
+
+#content .qualitystrategy_widget .qualitystrategyLogo .equitable
+{
+    left:26px;
+    top:55px;
+}
+#content .qualitystrategy_widget .qualitystrategyLogo li.equitable a:hover, 
+#content .qualitystrategy_widget .qualitystrategyLogo li.equitable a:focus{
+    background: url(http://www.widgetlibrary.knowledge.scot.nhs.uk/WidgetResources//QualityStrategy/images/qualityImage.png) no-repeat scroll -1708px -55px transparent;
+}
+
+#content .qualitystrategy_widget .qualitystrategyLogo .qualityLink
+{
+    height:112px;
+    width:112px;
+    
+    left:84px;
+    top:86px;
+    z-index: 999;
+}
+#content .qualitystrategy_widget .qualitystrategyLogo li.qualityLink a:hover, 
+#content .qualitystrategy_widget .qualitystrategyLogo li.qualityLink a:focus{
+    background: url(http://www.widgetlibrary.knowledge.scot.nhs.uk/WidgetResources//QualityStrategy/images/qualityImage.png) no-repeat scroll -68px -86px transparent;
+}
+
+
+
+.quicklinks_widget ul
+{
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.quicklinks_widget li
+{
+    background: url(images/SharedResources/images/nav-arrow.png) no-repeat scroll left 6px transparent;
+    margin-bottom: 5px;
+    overflow: hidden;
+    padding-left: 10px;
+}
+
+.quicklinks_widget a.more{
+    background:url("images/SharedResources/images/more-arrow-right.png") no-repeat scroll 4px 5px #F4F4F4;
+    border-bottom:1px solid #E0E3E4;
+    cursor:pointer;
+    display:block;
+    padding:3px 3px 3px 15px;
+    font-weight: bold;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+
+.quicklinks_widget a.fullList
+{
+    background: url("images/SharedResources/images/more-arrow-up.png") no-repeat scroll 4px 8px #F4F4F4;
+}
+
+.quicklinks_widget a.more:hover{
+	text-decoration: underline;
+}
+
+
+/*-------------------------------------------
+			Revolver Styles
+-------------------------------------------*/
+
+#content .revolverWidget
+{
+    /*background: #6E6E6E url(/images/greyCornerBottomRight.png) no-repeat bottom right;*/
+}
+
+#content .revolverWidget ul.revolverTabs,
+#ld-content .revolverWidget ul.revolverTabs
+{
+    float: right;
+    margin-left: 0;
+    width: 40%;
+}
+
+#content .revolverWidget ul.revolverTabs li,
+#ld-content .revolverWidget ul.revolverTabs li
+{
+    background: none;
+    margin:0;
+    overflow: hidden;
+    padding: 0; 
+}
+
+#content .revolverWidget ul.revolverTabs li a,
+#ld-content .revolverWidget ul.revolverTabs li a
+{
+    display:block;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px 15px;
+}
+
+#content .revolverWidget ul.revolverTabs li.active a {}
+
+#content .revolverWidget ul.revolverTabs li.last,
+#ld-content .revolverWidget ul.revolverTabs li.last {border: 0;}
+
+#content .revolverWidget ul.revolverTabs li.last a,
+#ld-content .revolverWidget ul.revolverTabs li.last a
+{
+    margin-top: 10px;
+    margin-left: 5px;
+    float:left;
+    font-size:1em;
+    padding:3px 7px 3px 16px;
+}
+
+#content .revolverWidget .boxContent,
+#ld-content .revolverWidget .boxContent
+{
+    padding:0;
+    margin-right: 0;
+}
+#content .revolverWidget .boxInner,
+#ld-content .revolverWidget .boxInner
+{
+    margin-right:0;
+    overflow:hidden;
+    padding-left:0;
+    padding-top: 0;
+    zoom:1;
+    position: relative;
+}
+
+#content .revolverWidget .fc .fc,
+#ld-content .revolverWidget .fc .fc
+{
+    float: left;
+    width: 59%;
+}
+
+#content .revolverWidget h2.fc,
+#ld-content .revolverWidget h2.fc 
+{
+    float: none;
+    width: auto;
+}
+
+#content .revolverWidget .innerContent,
+#ld-content .revolverWidget .innerContent
+{
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+#content .revolverWidget .outerContent .innerContent,
+#ld-content .revolverWidget .outerContent .innerContent {
+    padding: 0 0 10px 0;
+}
+
+#content .revolverWidget div.revolverContainer,
+#ld-content .revolverWidget div.revolverContainer
+{
+    float: none;
+    position: relative;
+    width: auto;
+    display: none;
+}
+
+#content .revolverWidget div.revolverContainer img,
+#ld-content .revolverWidget div.revolverContainer img
+{
+    width: 100%;
+}
+
+#content .revolverWidget div.revolverContainer a,
+#ld-content .revolverWidget div.revolverContainer a
+{
+    padding:2px 7px 2px 10px;
+}
+
+#content .revolverWidget div.revolverContainer div.revolverInnerContent,
+#ld-content .revolverWidget div.revolverContainer div.revolverInnerContent
+{
+    padding: 15px 0;
+    left:0;
+    bottom: 0;
+    width: 100%;
+    /*opacity: 0.85;
+    background-color: #000 #5F5F5F;
+    width: 59.5%;
+    left: 2px;
+    bottom: 15px;*/
+}
+
+#content .revolverWidget div.revolverContainer div.revolverInnerContent p,
+#ld-content .revolverWidget div.revolverContainer div.revolverInnerContent p {
+    padding: 0 15px;
+}
+
+li.intro div.richTextContent h2
+{
+    background: none;
+    color: #434343;
+}
+
+.newsfeeds_widget .listHeader,
+.newsfeeds_widget .news 
+{
+    font-size: 12px;
+}
+
+.newsfeeds_widget .listHeader,
+.newsfeeds_widget .listHeader a {
+    font-weight: bold;
+}
+
+.newsfeeds_widget .news 
+{
+    font-size: 12px;
+    list-style-position: inside;
+    margin-left: 0;
+    margin-bottom: 15px;
+}
+
+.newsfeeds_widget .news li 
+{
+    margin-bottom: 3px;
+}
+
+#ld-content .newsfeeds_widget ul.bulletPoints li.bulletPointItem {background:none;padding-left:0;}
+
+#ld-content .newsfeeds_widget ul.bulletPoints li.bulletPointItem a  
+{
+    background:url("/images/arrow_grey.png") no-repeat 0 5px; 
+    padding-left:15px;
+}
+
+
+/*------- Save and Share Widget ----------*/
+
+.saveAndShare .recordList .scrollable
+{
+    border: 2px solid #6E6E6E;
+    margin: 0;
+    padding: 0;
+    height: 150px;
+    overflow: auto;
+}
+
+.saveAndShare .recordList .scrollable ul.selectedRecords li
+{
+    list-style-type: none;
+    padding: 0.5em;
+}
+
+.saveAndShare .recordList .scrollable ul.selectedRecords li.even
+{
+    background-color: #EAF2F5;
+}
+
+.saveAndShare .uiControls .actions,
+.saveAndShare .uiControls .tagging,
+.saveAndShare .textContent
+{
+    margin-top: 1em;
+    padding-top: 1em;
+    border-top: 1px solid #CCCCCC;
+}
+
+.saveAndShare .uiControls .actions .resourceOptions input.button
+{
+    margin: 0;
+    width: auto;
+    text-align: left;
+}
+
+li.saveAndShare .resourceOptions li.ssEmail input.button
+{
+    color: #000 !important;
+    font-weight: normal;
+}
+.saveAndShare .uiControls .ssEmail fieldset
+{
+    margin: 0;
+    padding: 0;
+    border: none;
+    margin: 1em 0;
+}
+
+.saveAndShare .uiControls .ssEmail fieldset legend
+{
+    display: none;
+}
+
+.saveAndShare .uiControls .ssEmail fieldset .formRow
+{
+    padding-bottom: 0.6em;
+}
+
+.saveAndShare .uiControls .ssEmail fieldset .formRow p
+{
+    margin: 0;
+    font-size: 80%;
+    font-style: italic;
+}
+
+.saveAndShare .uiControls .ssEmail fieldset .formRow label
+{
+    display: block;
+    width: 9em;
+    font-size: 90%;
+}
+
+.saveAndShare .uiControls .ssEmail fieldset .formRow input.text,
+.saveAndShare .uiControls .ssEmail fieldset .formRow textarea
+{
+    width: 80%;
+}
+
+.saveAndShare .uiControls .ssEmail fieldset .formButtons input.button
+{
+}
+
+.saveAndShare .uiControls .actions .resourceOptions input.button:hover
+{
+    cursor: pointer;
+}
+
+.saveAndShare .uiControls .actions .resourceOptions input.button,
+.saveAndShare .uiControls .actions .resourceOptions a,
+.saveAndShare .uiControls .actions .resourceOptions .ssEmail strong
+{
+    font-size: 100%;
+    font-weight: bold;
+}
+
+.saveAndShare .uiControls .actions .resourceOptions .ssEmail p.error
+{
+    color: #800;
+}
+
+div.ac_results
+{
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 0;
+    padding: 0;
+}
+
+div.ac_results ul li
+{
+    padding: 0.2em 0.3em;
+    margin: 0;
+}
+
+div.ac_results ul li.ac_over
+{
+    background-color: #3399FF;
+    color: #fff;
+}
+
+div.ac_results iframe
+{
+    display: none;
+}
+
+#content .qit_widget,
+#content .pathways-widget {
+	margin-bottom: 10px;
+}
+
+/*#content .qit_widget h3,
+#content .pathways-widget h3 {
+	padding: 10px 10px 0 10px;
+}*/
+
+#content .qit_widget .tabContent,
+#content .pathways-widget .pathwaysContent {
+	padding: 0 10px 10px 10px;
+}
+
+#content .qit_widget .tabTriggers,
+#ld-content .qit_widget .tabTriggers,
+#content .pathways-widget .pathwaysTriggers {
+	background: url(images/Tab/Assets/images/qitTabsBG.png) repeat-x bottom left;
+	padding: 0 7px 7px 7px;
+	list-style-type: none;
+	margin-bottom: 5px;
+}
+
+#content .qit_widget .tabTriggers li,
+#ld-content .qit_widget .tabTriggers li,
+#content .pathways-widget .pathwaysTriggers li {
+	float: left;
+	background: #DAE3CD url(images/Tab/Assets/images/qitTabInactiveBG.png) repeat-x;
+	border: 1px solid #7D8487;
+	padding: 0;
+	margin: 0 1px 0 0;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	overflow:visible;
+}
+		
+	#content .qit_widget .tabTriggers li a,
+	#ld-content .qit_widget .tabTriggers li a,
+	body#CG #content .qit_widget .tabTriggers li a,
+	#content .pathways-widget .pathwaysTriggers li a {
+		color: #000;
+		display: block;
+		padding: 5px;
+		font-weight: bold;
+		font-size: 12px;		
+	}
+
+		#content .qit_widget .tabTriggers li a:hover,
+		#content .pathways-widget .pathwaysTriggers li a:hover {
+			background-color: transparent;
+		}
+
+		#content .qit_widget .tabTriggers li.active,
+		#ld-content .qit_widget .tabTriggers li.active,
+		#content .pathways-widget .pathwaysTriggers li.active {
+			background: #BBD1C5 url(images/Tab/Assets/images/qitTabActiveBG.png) repeat-x;
+			border-bottom: 1px solid #BBD1C5;
+	}
+
+    #content .qit_widget img.fr {
+        margin: 0 0 10px 10px;
+    }
+
+    #content .qit_widget img.fl {
+        margin: 0 10px 10px 0;
+    }
+    
+    #content .qit_widget .tabContent ul,
+    #content .qit_widget .tabContent ol {
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+    
+    #content .qit_widget .tabContent ul li {
+        zoom: 1;
+        background: url(images/SharedResources/images/nav-arrow.png) no-repeat scroll left 6px transparent;
+        margin-bottom: 5px;
+        overflow: hidden;
+        padding-left: 10px;
+    }
+    
+    #content .qit_widget .tabContent ol li {
+        background: none;
+        padding-left: 0;
+        display: list-item;
+        list-style-type: decimal;
+    }
+    
+    #content .qit_widget form label {
+        display: block;
+        font-weight: bold;
+    }
+    
+    #content .qit_widget form input.text {
+        font-size: 1.2em;
+        width: 75%;
+        /*width: 257px;*/
+        border:2px solid #CFCFCF;
+        float:left;
+        margin-right:10px;
+        margin-top:3px;
+        padding:5px;
+    }
+    
+    #content .qit_widget form input.button {
+    
+    }
+    
+    .tabContent h2 { background:none; }
+
+
+#ld-content .thumbnail ul li 
+{
+    float:left;
+    width:24%;
+    padding:0;
+    margin:0 1% 0 0;
+    background:none;
+    padding:10px 0 0 0;
+    overflow:hidden;
+    display:inline;
+}
+
+.thumbnail a  
+{
+    display:block;
+    padding:0 0 0 70px;
+    background-repeat:no-repeat;
+    background-position:0 0; 
+    height:70px;
+    border-right:1px solid #fff;
+}
+
+.thumbnail a span { padding:3px 8px 0 10px;display:block; }
+
+.thumbnail a:hover { background-color:#EAF0F2;text-decoration:none;border-right:1px solid #ccc; }
+
+/* 33% */
+#ld-content .col-32_5 .thumbnail ul li { width:100%;margin-right:0; }
+
+/* 50% */
+#ld-content .col-49_3 .thumbnail ul li { width:48%;margin-right:2%; }
+
+/* 66% */
+#ld-content .col-66 .thumbnail ul li { width:32%;margin-right:1%; }
+
+/* Portrait */
+.thumbnail ul.portrait a { padding-left:0;height:120px;border-right:0;border-bottom:1px solid #fff;background-position:50% 0; }
+
+.thumbnail ul.portrait a:hover { border-right:0;border-bottom:1px solid #ccc; }
+
+.thumbnail ul.portrait a span { padding:78px 3px 0; }
+
+/* Portrait - 33% */
+#ld-content .col-32_5 .thumbnail ul.portrait li { width:76%;margin:0 auto;float:none;display:block; }
+
+
+
+
+/* Elibrary Widget */
+#content .elibrary .menu
+{
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+}
+
+#content .elibrary fieldset{
+	padding-left:8px;
+}
+
+#content .elibrary .boxInner{
+	padding-left:0;
+	padding-top:0;
+}
+
+#content .elibrary ul.ui-tabs-nav li,
+#content .elibrary ul.menu li
+{
+	float:left;
+	background: url(/images/eLibraryTab.png) no-repeat 100% 100%;
+	padding:0;
+	margin:0;
+}
+
+#content .elibrary ul.ui-tabs-nav li a,
+#content .elibrary ul.menu li a
+{
+	float:left;
+	display:block;
+	background: url(/images/eLibraryTab_a.png) no-repeat 0 100%;
+	padding:8px 35px 6px 16px;
+	margin:0;
+	color: #000;
+	font-weight:bold;
+}
+
+#content .elibrary ul.ui-tabs-nav li a:focus,
+#content .elibrary ul.menu li a:focus
+{
+	outline:0;
+	border-top:2px solid #1494B6;
+}
+
+#content .elibrary ul.ui-tabs-nav li.current,
+#content .elibrary ul.menu li.selected
+{
+	background-image: url(/images/eLibraryTab_active.png);
+	margin-left:-1px;
+}
+
+
+#content .elibrary ul.ui-tabs-nav li.current a,
+#content .elibrary ul.menu li.selected a
+{
+	background-image: url(/images/eLibraryTab_active_a.png);
+}
+
+#content .elibrary .panel
+{
+    margin: 10px 10px 0;
+    padding-top: 10px;
+}
+
+.elibrary .buttonBox{
+	text-align:left;
+	padding:5px 2% 3px 0
+}
+
+#content .elibrary .buttonBox input.button{
+    margin: 10px 0 0 0;
+    width: auto;
+    height: auto;
+}
+
+#content .elibrary .boxContent a
+{
+	color: #1494B6;
+	font-weight:bold;
+}
+
+#content .elibrary a.all, a.all
+{
+	background: url(/images/arrow_grey_double.png) 0 4px no-repeat;
+	padding-left:14px;
+	font-weight:bold;
+}
+
+.elibrary label
+{
+	font-weight:bold;
+	color:#000;
+	width:auto;
+	float: none;
+}
+
+.elibrary input
+{
+	width:90%;
+	border:2px solid #1494B6;
+	height:1.6em;
+}
+
+.elibrary input:focus
+{
+	border-color: #58B2CA;
+}
+
+.elibrary .radioRow input,
+.elibrary .checkBox input { border:0;height:auto;margin:0; }
+
+#content .widget ul.removeFromHomePage label, #content .SubjectInterestsWidget ul label
+{
+	padding:1px 0 4px 18px;
+	background: url(/images/delete_redcross_greybg.png) no-repeat 0 4px;
+	cursor:pointer;
+}
+
+#content .widget ul.removeFromHomePage li 
+{
+	padding-left:0;
+}
+
+#librariesDiv
+{
+	padding:5px 0 0 0;	
+}
+
+#content .elibrary div.atoz ul,
+#content .elibrary div.atoz ul li
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background: none;
+    font-size: 120%;
+}
+
+#content .elibrary label
+{
+    float: none;
+    font-size: 120%;
+    margin-bottom: 0.2em;
+    width:auto;
+}
+
+#content .elibrary input.button
+{
+    margin-top: 10px;
+    margin-left: 0;
+    background: #F1F1F1;
+	color:#000;
+	border:1px solid #808080;
+	-moz-border-radius: 0.2em;
+	-webkit-border-radius: 0.2em;
+  	border-radius: 2em;
+  	font-size: 120%;
+}
+
+#content .elibrary .journals fieldset
+{
+    padding-left: 0;
+}
+
+#content .elibrary .panel input.text,
+#content .elibrary .panel .formRow input
+{
+    width: 90%;
+}
+
+#content .elibrary .panel .checkBox input,
+#content .elibrary .panel .radioRow input
+{
+    width: auto;
+    float: left;
+}
+
+#content .elibrary .panel ul.atoz
+{
+    margin-left: 0;
+}
+
+#content .elibrary .panel ul.atoz li {
+    background-image:none;
+    display:inline;
+    margin:0;
+    padding:3px 2px;
+}
+
+.tknResources ul.resourceGroupList h3
+{
+    margin-top: 0;
+    margin-bottom: 1em;
+    
+}
+
+.tknResources ul
+
+{
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.tknResources ul.resourceGroupList .noResources p
+{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.tknResources ul.resourceGroupList div.resourcesList
+{
+    margin-bottom: 1em;
+}
+
+.tknResources ul.resourceGroupList div.resourcesList .leftList
+{
+    width: 49%;
+    display: inline-block;
+}
+
+.tknResources ul.resourceGroupList div.resourcesList .rightList
+{
+    width: 49%;
+    float: right;
+}
+
+.searchProviders
+{
+	display:none; 
+	list-style:none;
+}
+
+li.searchProviderWidget .searchProviders,
+li.searchProviderWidget .searchProviders li 
+{
+    background: none;
+}
+
+li.searchProviderWidget .searchProviders li h4 {
+    display: none;
+}
+
+.col-66 { width:66%; }
+.col-49_3 { width:49.3%; }
+.col-32_5 { width:32.5%; }
+
+.ml-1_25 { margin-left:1.25%; }
+
+.widgets { width:100%; }
+
+/* Topic Link Results Widget */
+.mainSearchContainer  { overflow:hidden; }
+
+#ld-content .topic-link-results div#allResultsOutput h3,
+#ld-content .topic-link-results div#allResultsOutput span,
+#ld-content .topic-link-results ul.noList li,
+#ld-content .widget ul#sortOptions h3 { background: none; }
+#ld-content .widget ul#sortOptions { white-space: normal; }
+ul#sortOptions ul,
+#ld-content .topic-link-results #allResultsOutput span,
+#ld-content .widget ul#sortOptions li{ display:inline;  }
+#ld-content .widget ul#sortOptions ul { list-style-type:none; margin-left: 0; width:100px; }
+#ld-content .widget ul#sortOptions li.first { padding: 0 2px 0 0; }
+#ld-content .widget ul#sortOptions li.current { font-weight: bold; }
+#ld-content .widget ul#sortOptions li { padding:0 1px; background:none; }
+
+#ld-content .topic-link-results div#allResultsOutput
+{
+    float: right; width:70%;
+}
+
+#ld-content .topic-link-results div.col_215FL{ float: left; width: 25%;}
+#ld-content .topic-link-results .clearFilters{ margin: 6px 10px;}
+#ld-content .topic-link-results #allResultsOutput span,
+#ld-content .topic-link-results ul.noList li { padding: 0; }
+#ld-content .topic-link-results ul.listing li { background-image: none; border: 2px solid #CCCCCC; padding: 8px; position: relative; }
+#ld-content .topic-link-results ul.listing a { color: #1393B8; text-decoration: none; }
+#ld-content .topic-link-results ul.listing li ul.citation li { border: 0 none; margin: 3px 0; padding: 0; }
+#ld-content .topic-link-results ul.listing span.authentication { padding-left: 7px !important; }
+#ld-content .topic-link-results ul.listing li ul.searchResultFunctions li { border: 0 none; margin: 0 12px 0 0; padding: 0; display: inline; }
+
+#ld-content .topic-link-results .paging {display: block; text-align: center;}
+#ld-content .topic-link-results .paging li { margin: 0 1px;  display:inline;}
+#ld-content .topic-link-results .paging a, #ld-content .topic-link-results #allResultsOutput .paging span
+{
+    background-color: #F2F2F2; border: 1px solid #DFE4E6; display: inline-block; font-size: 1.2em; font-weight: bold; 
+    height: 21px; padding-top: 5px; text-align: center; width: 26px;
+}
+#ld-content .topic-link-results #allResultsOutput .paging span {background: none; color: #333;}
+#ld-content .topic-link-results .paging a
+{
+    color: #1393B8; text-decoration: none;
+}
+#ld-content .topic-link-results .paging a.alt{ background: none; border: 0 none; font-size: 1em; width: auto;}
+#ld-content .topic-link-results #allResultsOutput span.remove { display: none; }
+
+/* Topic Link Widget */
+#ld-content .topic-link ol { margin-left:30px; }
+
+#ld-content .topic-link ul {margin-left: 15px;}
+
+#ld-content .topic-link ul.topic-links {margin:8px 0;}
+
+#ld-content .topic-link ul.topic-links li { margin:0;padding:0 0 1px 0; }
+
+.topic-link ul.topic-links a { display:block;font-weight:bold;background: #efefef;padding:8px 10px; }
+
+.topic-link ul.topic-links .alt a { background-color:#DAEBF2; }
+
+.topic-link ul.topic-links a:hover { background-color:#32728C;color:#fff;text-decoration:none; }
+
+/* Pager */
+#ld-content .topic-link div.pager { text-align:center; }
+
+#ld-content .topic-link div.pager li { display:inline;border:0;padding:0;background:none; }
+
+.topic-link div.pager a,
+.topic-link div.pager span
+{
+    background-color: #F2F2F2;
+    border: 1px solid #DFE4E6;
+    color: #007899;
+    display: inline-block;
+    font-size: 1.2em;
+    font-weight: bold;
+    height: 21px;
+    padding-top: 5px;
+    text-align: center;
+    width: 26px;
+}
+
+.topic-link div.pager a:hover {background-color:#007899;color:#fff;}
+
+.topic-link div.pager span { color:#555; }
+
+.topic-link div.pager span .hide { display:block; }
+
+

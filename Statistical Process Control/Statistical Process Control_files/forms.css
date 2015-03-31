@@ -1,0 +1,41 @@
+﻿form#eventForm {
+    width: 100%;
+    clear: both;
+}
+
+div.formrow {
+    width: 100%;
+    float: left;
+    margin: 15px 0;
+}
+
+div.formrow label {
+    width: 20%;
+    float: left;
+}
+div.formrow input {height: 25px;}
+
+div.formrow input,
+div.formrow textarea {
+    width: 55%;
+    margin-left: 15px;
+    float: left;
+}
+
+div.formrow span {
+	float: left;
+	clear: left;
+	margin-left: 22%;
+	margin-top: 2px;
+}
+
+div.submitrow {width: 77%;}
+
+div.submitrow input {
+	float: right;
+	background: #FFF url(../images/blue-plus-sign.png) no-repeat left 5px;
+	
+	width: 75px;
+	height: 30px;
+	padding-left: 15px;
+}

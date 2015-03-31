@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<!-- saved from url=(0085)http://asq.org/learn-about-quality/statistical-process-control/overview/overview.html -->
+<html lang="en-us" class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths" xmlns:fb="http://ogp.me/ns/fb#"><!--<![endif]--><!-- InstanceBegin template="/templates/a-tango-three-column.dwt" codeOutsideHTMLIsLocked="false" --><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script type="text/javascript" async="" src="./Statistical Process Control & Process Control Tools   ASQ_files/conversion_async.js"></script><script type="text/javascript" async="" src="./Statistical Process Control & Process Control Tools   ASQ_files/conversion_async.js"></script><script type="text/javascript" async="" src="./Statistical Process Control & Process Control Tools   ASQ_files/analytics.js"></script>
+		    <meta charset="utf-8">
+    <!--/ Remove this if you use the .htaccess /-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <!--/ Mobile viewport optimized: j.mp/bplateviewport /-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="org.asq.version" content="[BUILDNUMBER]">
+    <meta name="org.asq.build-date" content="[BUILDDATE]">
+    <meta name="org.asq.environment" content="">
+    <!--/ Shortcut Icons /-->
+    <link rel="shortcut icon" href="http://asq.org/interface/icons/favicon.ico">
+    <link rel="apple-touch-icon" href="http://asq.org/interface/icons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="http://asq.org/interface/icons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="http://asq.org/interface/icons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-startup-image" href="http://asq.org/interface/icons/apple-touch-startup-image-320x460.png">
+    <!--/ CSS : implied media="all" /-->
+    <link rel="stylesheet" href="http://asq.org/interface/styles/styles.css">
+    <script async="" src="./Statistical Process Control & Process Control Tools   ASQ_files/gtm.js"></script><script src="./Statistical Process Control & Process Control Tools   ASQ_files/modernizr-2.0.6.js"></script>
+
+		<!-- InstanceBeginEditable name="doctitle" -->
+<title>Statistical Process Control &amp; Process Control Tools | ASQ</title>
+<meta name="description" content="Statistical process control (SPC) procedures help you monitor process behavior. Visit our website to learn more.">
+<!-- InstanceEndEditable -->
+		<!-- InstanceBeginEditable name="head" -->
+<meta name="WT.cg_n" content="BOK;LAQ">
+<meta name="WT.cg_s" content="LearnQ;Data">
+<style type="text/css">
+<!--
+.style1 {
+	color: #000000
+}
+-->
+</style>
+<!-- InstanceEndEditable -->
+		<!-- InstanceBeginEditable name="Head Info" -->
+<!-- InstanceEndEditable -->
+		<!-- InstanceBeginEditable name="redirect" -->
+<!-- InstanceEndEditable -->
+	</head>
+
+	<body>        <script>
+           dataLayer = []; /* placed datalayer here for initialization. must come before GTM code. */
+           var usrGlbl;
+           var bsf = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
+           var cd1 = '01234567890123456';
+           var mbType;
+           var usrName;
+           var mbNb;
+           var isLeader;
+           var hq = location.href.indexOf("hq.") > -1 ? 'hq.' : '';
+           var mb;
+           var Comment = '';
+           var isLoggedIn = 0;
+           var CO;
+           var cafId;
+           getUsrGlbl();
+
+           function rot07(input) {
+               if (!input) return '';
+               for (var output = '', i = 0; i < input.length; i++) {
+                   character = input.charAt(i);
+                   position = cd1.indexOf(character);
+                   if (position > -1)
+                       character = cd1.charAt(position + 5);
+                   output += character;
+               }
+               return output;
+           }
+           function decode(encStr) {
+               var bits, decOut = '', i = 0;
+               for (; i < encStr.length; i += 4) {
+                   bits =
+     (bsf.indexOf(encStr.charAt(i)) & 0xff) << 18 |
+     (bsf.indexOf(encStr.charAt(i + 1)) & 0xff) << 12 |
+     (bsf.indexOf(encStr.charAt(i + 2)) & 0xff) << 6 |
+      bsf.indexOf(encStr.charAt(i + 3)) & 0xff;
+                   decOut += String.fromCharCode(
+     (bits & 0xff0000) >> 16, (bits & 0xff00) >> 8, bits & 0xff);
+               }
+               if (encStr.charCodeAt(i - 2) == 61)
+                   undecOut = decOut.substring(0, decOut.length - 2);
+               else if (encStr.charCodeAt(i - 1) == 61)
+                   undecOut = decOut.substring(0, decOut.length - 1);
+               else undecOut = decOut;
+
+               return unescape(undecOut); 	//line add for chinese char
+           }
+
+           function getUsrGlbl() {
+               var allCookies = document.cookie.toString();
+               if (allCookies.indexOf("10.1.7.144") > -1) {
+                   //alert (allCookies);
+               }
+               if (document.cookie.toString().indexOf("caf") > -1) { /* this part does the caf addition 3 OCT 2014 */
+                   var startAt = allCookies.indexOf("caf") + 4;
+                   var remainingPart = allCookies.substring(startAt);
+                   cafId = remainingPart.substring(0, remainingPart.indexOf(";"));
+                   console.log(cafId);
+               }
+               if (document.cookie.toString().indexOf("nebsuc") > -1) {
+                   var startAt = allCookies.indexOf("nebsuc") + 7;
+                   var remainingPart = allCookies.substring(startAt);
+
+                   usrGlbl = remainingPart.indexOf(";") > -1 ? remainingPart.substring(0, remainingPart.indexOf(";"))
+													: remainingPart;
+                   usrGlbl = decode(usrGlbl);
+                   if (document.cookie.toString().indexOf("qazqsa29") > -1) {
+                       startAt = allCookies.indexOf("qazqsa29") + 9;
+                       remainingPart = allCookies.substring(startAt);
+
+                       var mbNb = remainingPart.indexOf(";") > -1 ? remainingPart.substring(0, remainingPart.indexOf(";"))
+														: remainingPart;
+                       this.mbNb = rot07(mbNb);
+                   }
+                   if (usrGlbl != null) {
+                       var posa = usrGlbl.indexOf("~");
+                       var usrNm = usrGlbl.substring(0, usrGlbl.indexOf("~"));
+                       //alert(usrNm);
+                       var pos1 = usrGlbl.indexOf("~", usrGlbl.indexOf("~") + 1) + 1;
+                       var pos2 = usrGlbl.indexOf("~", pos1);
+
+                       this.usrGlbl = usrGlbl;
+                       this.usrNm = usrNm;
+                       this.mbType = this.usrGlbl.substring(pos1, pos2);
+
+                       pos1 = usrGlbl.indexOf("~CO:");
+                       if (pos1 > -1) {
+                           CO = usrGlbl.substring(pos1 + 4);
+                           if (CO.indexOf("~") > -1) {
+                               CO = CO.substring(0, CO.indexOf("~"));
+                               // alert(CO);
+                           }
+                       }
+                       //alert(CO);
+
+                       // to support Ray's Flash NON-MEMBER introduction			
+                       var aYrFromNow = new Date(new Date().getTime() + (1000 * 3600 * 24 * 365));
+                       //alert(aYrFromNow.toGMTString());
+                       document.cookie = "mbtype=" + this.mbType + ";path=/;domain=asq.org;expires=" + aYrFromNow;
+
+                       //alert("<!-- JR temp...\n" + usrGlbl + "-->");
+                       //document.write(this.usrNm) ;
+                       this.isLeader = (usrGlbl.indexOf("LEADER") > -1 ? 1 : 0);
+                       //alert("isLeader: " + this.isLeader);
+                   }
+                   return usrGlbl;
+               }
+           }
+
+           if (usrGlbl != null) {loginState = "Logged In";
+               if (CO != null) {dlCo = CO;} else {dlCo = "NULL";};
+               if (mbType != null) {dlType = mbType;} else {dlType = "NULL";};
+           } else {var loginState = "Logged Out";var dlType = "NULL";var dlCo = "NULL";};
+
+           console.log("cafId :" + cafId);
+
+           eval(dataLayer.push({
+               'visitorLoginState': loginState,
+               'visitorType': dlType,
+               'visitorEnterprise': dlCo,
+               'visitorAffiliation': cafId
+           }));
+</script>
+<!-- Google Tag Manager -->
+<noscript>&lt;iframe src="//www.googletagmanager.com/ns.html?id=GTM-WV6VND"
+height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</noscript>
+<script>    (function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({ 'gtm.start':
+new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+'//www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-WV6VND');</script>
+<!-- End Google Tag Manager -->
+
+<!-- BCM 03 OCT 2014 modified GTM datalayer code to add caf --> <h1>
+<!-- InstanceBeginEditable name="topictitle" -->Statistical Process Control <!-- InstanceEndEditable --><!-- InstanceBeginEditable name="Title" --> <!-- InstanceEndEditable --></h1>
+	    
+		<div class="pagePart withTools">
+			<div class="contentColumn">
+				<section class="contentModule">
+            		<span id="region-JournalNameImage"><!-- InstanceBeginEditable name="JournalNameImage" --> <!-- InstanceEndEditable --></span>
+					<span id="region-foq-table"><!-- InstanceBeginEditable name="foq-table" --> <!-- InstanceEndEditable --></span>
+					<span id="region-mainhead"><!-- InstanceBeginEditable name="mainhead" --> <!-- InstanceEndEditable --></span>
+					<span id="region-maincontent"><!-- InstanceBeginEditable name="maincontent" --> <!-- InstanceEndEditable --></span>
+					<span id="region-mainContent"><!-- InstanceBeginEditable name="mainContent" --> <!-- InstanceEndEditable --></span>
+					<span id="region-MainContent"><!-- InstanceBeginEditable name="Main Content" --> <!-- InstanceEndEditable --></span>
+					<span id="region-subheader"><!-- InstanceBeginEditable name="subheader" --> <!-- InstanceEndEditable --></span>
+					<span id="region-body"><!-- InstanceBeginEditable name="body" -->
+
+      <p>Statistical process control (SPC) procedures can help you monitor process behavior. </p>
+      <p>Arguably the most successful SPC tool is the control chart, originally developed by Walter Shewhart in the early 1920s. A control chart helps you record data and lets you see when an unusual event, e.g., a very high or low observation compared with “typical” process performance, occurs. </p>
+      <p>Control charts attempt to distinguish between two types of process variation: </p>
+      <ul>
+        <li>Common cause variation, which is intrinsic to the process and will always be present. </li>
+        <li>Special cause variation, which stems from external sources and indicates that the process is out of statistical control. </li>
+      </ul>
+      <p>Various tests can help determine when an out-of-control event has occurred. However, as more tests are employed, the probability of a false alarm also increases. </p>
+      <h2 class="orangehead">Background</h2>
+      <p>A marked increase in the use of control charts occurred during World War II in the United States to ensure the quality of munitions and other strategically important products. The use of SPC diminished somewhat after the war, though was subsequently taken up with great effect in Japan and continues to the present day. (For more, see <a href="http://asq.org/learn-about-quality/history-of-quality/overview/overview.html">The History of Quality</a>) </p>
+      <p>Many SPC techniques have been “rediscovered” by American firms in recent years, especially as a component of quality improvement initiatives like <a href="http://asq.org/learn-about-quality/six-sigma/overview/overview.html">Six Sigma</a>. The widespread use of control charting procedures has been greatly assisted by statistical software packages and ever-more sophisticated data collection systems. </p>
+      <p>Over time, other process-monitoring tools have been developed, including: </p>
+      <ul>
+        <li>Cumulative Sum (CUSUM) charts: the ordinate of each plotted point represents the algebraic sum of the previous ordinate and the most recent deviations from the target. </li>
+        <li>Exponentially Weighted Moving Average (EWMA) charts: each chart point represents the weighted average of current and all previous subgroup values, giving more weight to recent process history and decreasing weights for older data. </li>
+      </ul>
+      <p>More recently, others have advocated integrating SPC with Engineering Process Control (EPC) tools, which regularly change process inputs to improve performance.</p>
+      <p>Contributed by Keith M. Bower, a statistician and webmaster of <a href="http://www.keithbower.com/" target="_blank">www.KeithBower.com</a>. </p>
+      
+      <p><strong><a href="http://asq.org/learn-about-quality/statistical-process-control/overview/tutorial.html">Tutorial: Statistical Quality Control Versus Statistical Process Control</a></strong></p><a href="http://asq.org/learn-about-quality/statistical-process-control/overview/tutorial.html">
+      </a><p><a href="http://asq.org/learn-about-quality/statistical-process-control/overview/tutorial.html"><strong></strong></a><strong><a href="http://asq.org/learn-about-quality/data-collection-analysis-tools/overview/asq-control-chart.xls" target="_blank">Control Chart Template (Excel, 973 KB)</a></strong></p>
+       <!-- InstanceEndEditable --></span>
+					<span id="region-body_text"><!-- InstanceBeginEditable name="body text" --> <!-- InstanceEndEditable --></span>
+					<span id="region-Content"><!-- InstanceBeginEditable name="Content" --> <!-- InstanceEndEditable --></span>
+					<span id="region-footerad"><!-- InstanceBeginEditable name="footerad" -->
+      
+      <!-- InstanceEndEditable --></span>
+				</section>
+            </div>
+            <div class="toolsColumn">
+                <nav id="region-navigation"><!-- InstanceBeginEditable name="navigation" --> <!-- InstanceEndEditable --></nav>
+                <nav id="region-tabs"><!-- InstanceBeginEditable name="tabs" -->
+      <ul>
+  <li><a id="o_tab" href="./Statistical Process Control & Process Control Tools   ASQ_files/Statistical Process Control & Process Control Tools   ASQ.html">
+  Overview</a></li>
+  <li><a id="l_tab" href="http://asq.org/learn-about-quality/statistical-process-control/overview/read-more.html">
+  Read More</a></li>
+  <li><a id="tc_tab" a="" href="http://asq.org/learn-about-quality/statistical-process-control/overview/tutorial.html">Tutorial</a></li>
+      </ul>
+      <!-- InstanceEndEditable --></nav>
+                <nav id="region-leftnav"><!-- InstanceBeginEditable name="leftnav" --> <!-- InstanceEndEditable --></nav>
+                <nav id="region-left_nav"><!-- InstanceBeginEditable name="left_nav" --> <!-- InstanceEndEditable --></nav>
+                <nav id="region-Menu"><!-- InstanceBeginEditable name="Menu" --> <!-- InstanceEndEditable --></nav>
+                <nav id="region-Side_Content"><!-- InstanceBeginEditable name="Side Content" --> <!-- InstanceEndEditable --></nav>
+                <nav id="region-Redirect"><!-- InstanceBeginEditable name="Redirect" --> <!-- InstanceEndEditable --></nav>
+            </div>
+			<div class="callToAction">
+				<div id="dashBoard" class="dashBoard isClosed"><iframe src="./Statistical Process Control & Process Control Tools   ASQ_files/global-dash.html" frameborder="0" scrolling="no" style="width: 240px; height: 350px; margin: 0px; padding: 0px; border: none; background: none;"></iframe></div>
+				<p class="adtext">Featured advertisers</p> <iframe src="./Statistical Process Control & Process Control Tools   ASQ_files/abmw_ssl(1).html" width="240" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                 <iframe src="./Statistical Process Control & Process Control Tools   ASQ_files/abmw_ssl(2).html" width="240" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe> 
+ <br>
+ 
+ 
+<iframe src="./Statistical Process Control & Process Control Tools   ASQ_files/abmw_ssl.html" width="240" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>  
+
+                <span id="region-qp-spotlight"><!-- InstanceBeginEditable name="qp-spotlight" --> <!-- InstanceEndEditable --></span>
+				<span id="region-special"><!-- InstanceBeginEditable name="special" --> <!-- InstanceEndEditable --></span>
+			</div>
+	    </div>
+
+				<!-- Page Navigation -->
+		<nav id="navSite" class="isClosed">
+            <div id="navMainPos">
+                <ul id="navMain">
+				    <li id="navKC"><a href="http://asq.org/knowledge-center/index.html" title="Knowledge Center">Knowledge Center</a></li>
+				    <li id="navMem"><a href="http://asq.org/membership/why-become-a-member/overview.html" title="Membership">Membership</a></li>
+				    <li id="navCert"><a href="http://asq.org/cert" title="Certification">Certification</a></li>
+				    <li id="navTrain"><a href="http://asq.org/learninginstitute/index.html" title="Training">Training</a></li>
+                    <li id="Li1"><a href="http://asq.org/quality-press/index.html" title="Books &amp; Standards">Books &amp; Standards</a></li>
+				    <li id="navConf"><a href="http://asq.org/conferences-events.html" title="Conferences &amp; Events">Conferences &amp; Events</a></li>
+				    <li id="navComm"><a href="http://asq.org/communities-networking/index.html" title="Communities">Communities</a></li>
+				    <li id="navAbout"><a href="http://asq.org/about-asq/who-we-are/index.html" title="About ASQ">About ASQ</a></li>
+			    </ul>
+            </div>
+            <div id="navEyebrowPos">
+				<ul id="navEyebrow">
+					<li><a href="http://asq.org/" title="Store">Home</a></li>
+					<li><a href="http://asq.org/store/index.html" title="Store" class="eyebrowStore">Store</a></li>
+					<li><a href="http://asq.org/qualityprogress/index.html" title="Quality Progress" target="_blank" class="eyebrowQP"><em>Quality Progress</em></a></li>
+                    <li><a href="http://videos.asq.org/home">ASQ™ TV</a></li>
+					<li><a href="http://asq.org/customer-service/contact-asq/index.html" title="Contact ASQ" class="eyebrowContact">Contact ASQ</a></li>
+					<li id="navEcomm"><a href="https://secure.asq.org/perl/scart/catalog.cgi?cart=view" title="Shopping Cart" class="eyebrowCart">Shopping Cart</a></li>
+				<li><b id="boldChatButton"><a href="http://livechat.boldchat.com/aid/1445670547303712682/bc.chat">Live Chat</a></b></li></ul>
+            </div>
+            
+            <div id="navSocialPos" class="uxlShareTopMenu"><ul id="navSocial">
+                      <li><a class="uxlShareTopMenuCommunity" href="http://community.asq.org/Home/" target="_blank" title="ASQ Communities"></a></li>
+                      <li><a class="uxlShareTopMenuYouTube" href="http://www.youtube.com/user/ASQhq" target="_blank" title="Watch ASQ on YouTube"></a></li>
+                     <li><a class="uxlShareTopMenuLinkedIn" href="http://www.linkedin.com/groups?gid=3633" target="_blank" title="Network with ASQ on LinkedIn"></a></li>
+                    <li><a class="uxlShareTopMenuFacebook" href="http://facebook.com/ASQ" target="_blank" title="Friend ASQ on Facebook"></a></li>
+                    <li><a class="uxlShareTopMenuTwitter" href="http://twitter.com/ASQ" target="_blank" title="Follow ASQ on Twitter"></a></li>
+                    <li><a class="uxlShareTopMenuGoogle" href="https://plus.google.com/+AsqOrg1946" rel="publisher" target="_blank" title="Google+"></a></li>
+                    
+                   
+   
+				</ul>  
+              </div> 
+		</nav>
+        
+        <div class="brandStrip">
+            <div class="brandArea">
+                <!-- Logo & Branding -->
+                <a href="http://asq.org/index.aspx" id="hdrTagline">ASQ is a global community of people passionate about quality, who use the tools, their ideas and expertise to make our world work better. ASQ: <span style="color:#000">The Global Voice of Quality</span>.</a>
+			    <!-- Country Navigation -->
+                <!--  <div id="navGlobal"><p><a href="/global/select-country-region.html">Select Country / Region&nbsp;&nbsp; <img src="/img/world-globe-asq-header.png" width="40" height="19" alt="globe"  style="vertical-align:middle;" />&nbsp;&nbsp; USA</a></p></div>-->
+               <!--WORKS-WO-SPRITE--> <div id="navGlobal"><p><a href="http://asq.org/global/select-country-region.html">Select Country / Region &nbsp;&nbsp;<img src="./Statistical Process Control & Process Control Tools   ASQ_files/world-globe-asq-header.png" class="globeVam" width="40" height="19" alt="globe">&nbsp;&nbsp; USA</a></p></div>
+               <!-- <div id="navGlobal"><p><a href="/global/select-country-region.html">Select Country / Region&nbsp; <img class="globe"/>&nbsp; USA</a></p></div> --> 
+                  <!--KMO -5-9-2013 WORKS-IN-CHROME_AND-SAFARI_ONLY <div id="navGlobal"><p><a href="/global/select-country-region.html"><img class="globe" />&nbsp;&nbsp;&nbsp;Select Country / Region&nbsp; &nbsp; USA</a></a></p></div> -->
+                   
+            <!-- KMO OLD replaced with Select Country/Region link, hidden 5-9-2013 <ul id="navGlobal" class="iconMenu iconMenuFour">
+				    <li><a href="http://asq.org.in/" title="India" class="lang-in">India</a></li>
+				    <li><a href="http://www.asq.com.mx/" title="Mexico" class="lang-mx">Mexico</a></li>
+				    <li><a href="http://www.asq.com.cn/" title="China" class="lang-ch">China</a></li>
+				    <li><a href="http://asq.org/global/countries/canada.html" title="Canada" class="lang-ca">Canada</a></li>
+				    <li><a href="http://asq.org" title="USA" class="lang-usa">USA</a></li>
+			    </ul> -->
+                <div id="searchBox" class="isClosed">
+                    <form class="formTypeSearch" id="formSectionGlobal" name="formSectionGlobal" method="GET" action="http://asq.org/gadget/search.aspx">
+						<input type="hidden" name="site" value="public">
+					    <input type="hidden" name="source" value="">
+						<input type="hidden" name="search_mode" value="keyword">
+						<input type="search" name="q" placeholder="Search ASQ" id="navSearchTerm">
+						<input type="submit" value="Search">
+						<nav>
+							<ul class="secondaryMenu">
+								<li><a href="http://asq.org/perl/search-Google-Mini.pl?previous=&as_epq=&site=my_collection&filter=0&as_eq=&output=xml_no_dtd&client=my_collection&btnG=Search&access=p&num=10&ip=207.67.83.164&as_oq=&as_occt=any&as_q=&proxystylesheet=my_collection&oe=UTF-8&proxycustom=%3CADVANCED/%3E">Advanced Search</a></li>
+							</ul>
+						</nav>
+					</form>
+                    <!-- form class="formTypeSearch" method="get" id="formSectionGlobal" name="formSectionGlobal" action="http://search.asq.org">
+				        <input type="hidden" name="" value="" />
+				        <input type="hidden" name="site" value="my_collection" />
+				        <input type="hidden" name="client" value="my_collection" />
+				        <input type="hidden" name="proxystylesheet" value="my_collection" />
+				        <input type="hidden" name="output" value="xml_no_dtd" />
+				        <input class="btnAlt2" type="submit" title="Submit Search" value="Search" name="usearch.p_action" id="navSearchButton" />
+				        <input type="search" class="formCallback" placeholder="Search ASQ..." name="q" maxlength="255" id="navSearchTerm" />
+				        <nav>
+                            <ul class="secondaryMenu">
+				                   <li><a href="/perl/search-Google-Mini.pl?previous=&as_epq=&site=my_collection&filter=0&as_eq=&output=xml_no_dtd&client=my_collection&btnG=Search&access=p&num=10&ip=207.67.83.164&as_oq=&as_occt=any&as_q=&proxystylesheet=my_collection&oe=UTF-8&proxycustom=<ADVANCED/>" title="Advanced Search">Advanced Search</a></li>
+			                </ul>
+                        </nav>
+			        </form -->
+                    
+                </div>
+            </div>
+        </div>
+
+		<nav>
+			<ul id="mobNavSkip">
+				<li id="navigationFull"><a href="http://asq.org/learn-about-quality/statistical-process-control/overview/overview.html#navSite" class="isClosed">Menu</a></li>
+				<li id="navigationSignIn"><a href="http://asq.org/learn-about-quality/statistical-process-control/overview/overview.html#dashBoard" class="isClosed">Sign In</a></li>
+				<li id="navigationSearch"><a href="http://asq.org/learn-about-quality/statistical-process-control/overview/overview.html#searchBox" class="isClosed">Search</a></li>
+			</ul>
+		</nav>
+		<footer>
+            <ul id="navCopyright" class="plainMenu">
+				<li><a href="http://www.asq.org/media-room/index.html" title="Media Room">Media Room</a></li>
+				<li><a href="http://asq.org/career/index.html" title="Career Center">Career Center</a></li>
+				<li><a href="http://asq.org/ads/index.html" title="Advertising &amp; Sponsorship">Advertising &amp; Sponsorship</a></li>
+				<li><a href="http://asq.org/customer-service/index.html" title="Customer Service">Customer Service</a></li>
+				<li><a href="http://asq.org/site-map.html" title="Site Map">Site Map</a></li>
+				<li><a href="http://asq.org/copyright/" title="Privacy Policy">Terms of Use</a></li>
+				<li><a href="http://asq.org/privacy-policy.html" title="Privacy Policy">Privacy Policy</a></li>
+			</ul>
+            <img style="float:left; margin-right: 20px" class="forPrint" width="150" height="150" src="./Statistical Process Control & Process Control Tools   ASQ_files/chart">
+            <p style="float:left" class="forPrint">http://asq.org/learn-about-quality/statistical-process-control/overview/overview.html</p>
+            <p id="copyright">© American Society for Quality. All rights reserved.</p>
+		</footer>
+		<script src="./Statistical Process Control & Process Control Tools   ASQ_files/jquery.min.js"></script>
+		<script> !window.jQuery && document.write(unescape('%3Cscript src="/interface/js/jquery-1.10.2.js"%3E%3C/script%3E'))</script>
+		<script src="./Statistical Process Control & Process Control Tools   ASQ_files/jquery-migrate-1.2.1.js"></script>
+        <script src="./Statistical Process Control & Process Control Tools   ASQ_files/application-v4.js"></script>    
+        <!--// start special message  //-->
+<script src="./Statistical Process Control & Process Control Tools   ASQ_files/special-message.js" type="text/javascript"></script>
+<script>    specialMessage();</script>
+<!--// end special message  //-->
+        <script>
+            jQuery(document).ready(function () {
+                var d = jQuery("<iframe>")
+                    .attr({
+                        src: "/theme/global-dash.aspx",
+                        frameborder: 0,
+                        scrolling: "no"
+                    })
+                    .width(240)
+                    .height(350)
+                    .css({
+                        margin: 0,
+                        padding: 0,
+                        border: "none",
+                        background: "none"
+                    });
+
+                jQuery("#dashBoard").html(d);
+
+            });
+        </script>
+        
+        <div style="display:none">
+        	<span id="region-AreaTitle"><!-- InstanceBeginEditable name="AreaTitle" --> <!-- InstanceEndEditable --></span>
+        	<span id="region-header"><!-- InstanceBeginEditable name="header" --><img src="./Statistical Process Control & Process Control Tools   ASQ_files/using_data.gif" alt="Using Data" border="0" class="orangePush"><!-- InstanceEndEditable --></span>
+            <span id="region-headerImage"><!-- InstanceBeginEditable name="headerImage" --> <!-- InstanceEndEditable --></span>
+            <span id="region-Page_Heading_Image"><!-- InstanceBeginEditable name="Page Heading Image" --> <!-- InstanceEndEditable --></span>
+            <span id="region-page_title_image"><!-- InstanceBeginEditable name="page title image" --> <!-- InstanceEndEditable --></span>
+			<span id="region-secondaryHeader"><!-- InstanceBeginEditable name="secondaryHeader" --> <!-- InstanceEndEditable --></span>
+        </div>
+
+	
+
+<!-- InstanceEnd --><div id="uxlNotifier" class="uxlNotifier" style="display: none;"></div></body></html>
